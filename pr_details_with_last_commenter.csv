@@ -1,0 +1,282 @@
+PR Number,Issue Number,Files,Date Committed,Date Closed,Author,Title,Body,Comments
+1226,lencx-patch-4,README.md,2024-03-11T11:13:28Z,2024-03-11T11:13:34Z,lencx,chore: add Noi,,
+1223,patch-1,src/view/about/index.tsx,2024-03-10T18:36:37Z,2024-03-11T02:52:08Z,webbertakken,fix: couple of typos in about,"Fix accidental space 
+![image](https://github.com/lencx/ChatGPT/assets/20756439/81eacdd9-4d4c-4324-afdc-31d98fc8ec5c)
+",
+1200,lencx-patch-3,README.md,2024-01-29T10:34:05Z,2024-01-29T10:34:14Z,lencx,add Noi,,
+1172,main,casks/chatgpt.rb,2023-12-13T09:26:57Z,2024-03-11T02:52:22Z,wubaiqing,fix: brew cask version number,update brew cask version number,
+1101,patch-1,Chatgpt,2023-10-17T07:21:04Z,2024-03-11T02:51:02Z,Aabbcc22,Create Chatgp,Welcome to CHATGPT,
+1083,main,README.md,2023-10-07T17:04:01Z,2023-10-26T13:47:37Z,isbrakha,Edited the README.md file,,
+1074,patch-2,README.md,2023-09-22T05:42:30Z,2023-09-22T05:45:35Z,asheroto,Update README.md,Fixed extra parentheses in Features,
+1017,main,".gitignore, scripts/export.js",2023-07-27T06:50:53Z,2023-08-03T08:25:28Z,djdarcy,Improved exportMarkdown() & getName() to better preserve user input,"The changes to `scripts/export.js` below add better support to:
+* maintain proper carriage returns in the markdown output
+* retain indentation by converting appropriate whitespace (spaces, tabs, etc) to `&nbsp;` and then calling ExportMD
+
+There is also some stub code to improve the readability of the exported filenames, but this will likely also require changes to some of the Rust code.",
+988,lencx-patch-3,README.md,2023-07-05T14:50:00Z,2023-07-05T14:50:07Z,lencx,readme,,
+985,lencx-patch-2,README.md,2023-07-05T03:27:28Z,2023-07-05T03:27:34Z,lencx,readme,,
+984,main,.github/ISSUE_TEMPLATE/bug_report.yml,2023-07-01T05:25:43Z,2023-07-04T06:02:47Z,asheroto,Update Issue template to avoid non-package Issues,"I noticed that many people are creating an issue for things that have nothing to do with this package.
+
+To help prevent against non-package issues, I have added some additional information at the top, as well as added a checkbox requiring people to check that the issue does not occur on ChatGPT and only in this app. 😊",
+979,main,scripts/core.js,2023-06-28T07:41:37Z,2023-06-30T15:59:20Z,tk103331,fix: ui adaptation for no titlebar,"
+<img width=""800"" alt=""image"" src=""https://github.com/lencx/ChatGPT/assets/4404609/1aa49311-7592-4f66-af92-1fec6fd593d8"">
+
+
+<img width=""472"" alt=""image"" src=""https://github.com/lencx/ChatGPT/assets/4404609/8827a628-8873-4729-be7b-1a6166df589d"">
+
+<img width=""472"" alt=""image"" src=""https://github.com/lencx/ChatGPT/assets/4404609/be4dd67a-a981-419d-bf1c-338c29586eb9"">
+
+
+",
+918,patch-1,casks/chatgpt.rb,2023-05-25T15:24:53Z,2023-05-26T08:16:11Z,karbassi,Update Brewfile to 1.0.0,,
+914,lencx-patch-1,scripts/export.js,2023-05-25T06:29:12Z,2023-05-25T06:29:18Z,lencx,fix: export.js,,
+912,dev,".github/workflows/release.yml, Cargo.lock, README-ZH_CN.md, README.md, UPDATE_LOG.md, package.json, pnpm-lock.yaml, public/bmc.png, public/wxp.png, scripts/README.md, scripts/chat.js, scripts/cmd.js, scripts/core.js, scripts/dalle2.js, scripts/export.js, scripts/main.js, scripts/manifest.json, scripts/popup.core.js, sponsor.html, src-tauri/Cargo.toml, src-tauri/src/app/cmd.rs, src-tauri/src/app/gpt.rs, src-tauri/src/app/menu.rs, src-tauri/src/app/mod.rs, src-tauri/src/app/script.rs, src-tauri/src/app/setup.rs, src-tauri/src/app/template.rs, src-tauri/src/app/window.rs, src-tauri/src/conf.rs, src-tauri/src/main.rs",2023-05-25T05:24:07Z,2023-05-25T05:24:45Z,lencx,chore: optim,,
+862,patch-1,README.md,2023-04-26T16:22:10Z,2023-04-26T16:25:34Z,pianex,Update README.md,,
+837,translation-ru,"README.md, docs/README-RU.md, docs/README-ZH_CN.md",2023-04-19T12:05:31Z,2023-05-06T14:56:03Z,TungusSs,"Added Russian translation, updated README and improved project structure","Greetings, this is my first PR, please be patient if I did something wrong 😄.
+I added Russian translation of README and Russian flag icon in the main README to indicate availability of translated version (README-ru.md). This is done to improve accessibility for Russian-speaking users. Also I made a `docs` folder, where all the README translations will be kept and moved README-ZN_CN.md in that folder. If you want, you can make it for other documents (not only README) in the future.
+Please forgive me for misprints or translation errors, if I missed something, please point out my mistakes, I will be grateful to you and I will correct them, also you can commit in my PR too.",
+812,PrimeChatGPT,".github/workflows/release.yml, README-ZH_CN.md, README.md, src-tauri/src/app/menu.rs",2023-04-14T05:37:38Z,2023-04-14T05:39:21Z,prime-shepherd,Prime chat gpt,,
+723,main,src-tauri/src/app/menu.rs,2023-03-28T03:29:00Z,2023-03-28T03:56:48Z,cauyxy,Change tray window position,"Before this merge，please review [tauri-plugins-workspace](https://github.com/lencx/tauri-plugins-workspace/pull/1)
+Change tray window position from center to fixed center on left click event",
+697,shengwusuoxi-patch-1,.github/workflows/release.yml,2023-03-23T06:12:18Z,2023-03-25T16:53:39Z,shengwusuoxi,Update release.yml,fix action config,
+666,patch-1,README.md,2023-03-20T09:04:39Z,2023-03-20T09:13:39Z,onatkarabulut,Update README.md,"I changed the following lines in the installation for Linux --> [83,84]",
+660,doc,README.md,2023-03-19T11:46:30Z,2023-03-19T11:46:37Z,lencx,readme,,
+612,patch-1,Dln,2023-03-11T02:56:30Z,2023-06-01T16:13:33Z,dolonhunt,Create Dln,,
+596,mymymy,"README.md, assets/apple-mac.png, assets/chatGPT-Desktop.jpg, assets/debian.png, assets/linux.png, assets/ubuntu.png, assets/windows.png, assets/windows_.png, chat.model.md, docs/Chinese_ZH_CN/README-ZH_CN.md, docs/FAQ/faq.md, docs/contribute-docs/CODE_OF_CONDUCT.md, docs/contribute-docs/CONTRIBUTING.md, docs/development/development.md, docs/documentation/application-config.md, docs/documentation/custom-sync.md, docs/documentation/official-docs.md, docs/documentation/previews.md, docs/install-docs/linux-install.md, docs/install-docs/mac-install.md, docs/install-docs/windows-install.md, docs/legacy-docs/ORG_README.md, docs/prompts-docs/AWESOME.md, docs/prompts-docs/chat.model.md, docs/prompts-docs/prompts-readme.md, docs/system/UPDATE_LOG.md",2023-03-09T00:01:33Z,2023-03-09T00:49:11Z,myw84m3,Mymymy,,
+572,main,src/view/settings/General.tsx,2023-03-06T04:54:46Z,2023-03-06T08:28:09Z,tk103331,fix:windows voices is empty,"use voices change event to update voices list.
+
+fix: https://github.com/lencx/ChatGPT/issues/571
+
+![image](https://user-images.githubusercontent.com/4404609/223022259-557c7525-fc5e-486e-b08f-ea9b504d6cc6.png)
+",
+561,dev,".github/workflows/release.yml, README-ZH_CN.md, README.md, UPDATE_LOG.md, casks/chatgpt.rb, src-tauri/src/app/setup.rs, src-tauri/src/app/window.rs, src-tauri/src/conf.rs, src-tauri/src/scripts/chat.js, src-tauri/src/scripts/cmd.js, src-tauri/src/scripts/export.js, src-tauri/tauri.conf.json, src/view/settings/General.tsx",2023-03-05T04:44:52Z,2023-03-05T04:45:10Z,lencx,feat: tts (#534),,
+549,dev,"README-ZH_CN.md, README.md",2023-03-04T02:37:49Z,2023-03-04T02:37:57Z,lencx,readme,,
+548,dev,.github/workflows/release.yml,2023-03-04T02:28:01Z,2023-03-04T02:28:08Z,lencx,chore: action,,
+547,dev,".github/workflows/release.yml, Cargo.lock, README-ZH_CN.md, README.md, UPDATE_LOG.md, package.json, src-tauri/Cargo.toml, src-tauri/src/app/menu.rs, src-tauri/src/conf.rs, src-tauri/src/scripts/cmd.js, src-tauri/src/scripts/export.js, src-tauri/tauri.conf.json, src/view/about/index.tsx",2023-03-04T02:14:28Z,2023-03-04T02:15:15Z,lencx,chore: allowlist,,
+507,dev,"README-ZH_CN.md, README.md",2023-02-25T16:24:16Z,2023-02-25T16:24:24Z,lencx,readme,,
+506,dev,UPDATE_LOG.md,2023-02-25T16:14:31Z,2023-02-25T16:14:37Z,lencx,readme,,
+505,dev,README.md,2023-02-25T15:56:46Z,2023-02-25T15:56:52Z,lencx,readme,,
+504,dev,"README-ZH_CN.md, README.md",2023-02-25T15:47:57Z,2023-02-25T15:48:05Z,lencx,readme,,
+495,dev,LICENSE,2023-02-24T02:23:19Z,2023-02-24T02:23:26Z,lencx,LICENSE,,
+491,patch-1,src/view/settings/index.tsx,2023-02-23T17:45:34Z,2023-02-24T09:56:45Z,sharunkumar,fix: better user confirmation message,,
+479,dev,LICENSE,2023-02-22T07:59:50Z,2023-02-22T07:59:56Z,lencx,LICENSE,,
+478,dev,UPDATE_LOG.md,2023-02-22T06:42:32Z,2023-02-22T06:42:41Z,lencx,log,,
+476,dev,"README-ZH_CN.md, README.md",2023-02-22T06:23:40Z,2023-02-22T06:23:47Z,lencx,readme,,
+475,dev,"README-ZH_CN.md, README.md",2023-02-22T05:26:37Z,2023-02-22T05:26:43Z,lencx,readme,,
+472,main,"README.md, src-tauri/Cargo.toml",2023-02-21T22:21:27Z,2023-02-22T06:25:38Z,qbdq,Typo fixes commit,"Some minor typo fixes 📝, no experience in rust 💯, love the work❤️ ",
+464,fix/node-version-compatible-issue,".npmrc, package.json",2023-02-21T03:27:46Z,2023-02-21T03:31:40Z,mrdulin,fix: node version campatible issue,"[issue](https://github.com/lencx/ChatGPT/issues/463)
+
+English: If the user has incompatible Nodejs version, `pnpm install` will throw an error and prevent installing packages. 
+Chinese: 开启engine-strict，nodejs版本与engines字段指定的版本不兼容，则报错并阻止用户安装package
+
+For example:
+
+```bash
+$ sudo n node/15.14.0
+   installed : v15.14.0 (with npm 7.7.6)
+
+$ pnpm install 
+ ERR_PNPM_UNSUPPORTED_ENGINE  Unsupported environment (bad pnpm and/or Node.js version)
+
+Your Node version is incompatible with ""/Users/dulin/workspace/github.com/mrdulin/ChatGPT"".
+
+Expected version: ^14.18.0 || ^16.0.0
+Got: v15.14.0
+
+This is happening because the package's manifest has an engines.node field specified.
+To fix this issue, install the required Node version.
+```",
+426,main,".github/workflows/release.yml, updateBrewVersion.sh",2023-02-17T11:45:46Z,2023-03-02T16:58:33Z,missuo,feat: automatically update the release version installed by homebrew,"When a new version is released, you have to modify `casks/chatgpt.rb` manually. 
+
+This pr does the job of automatically updating the version.",
+425,revert-424-fix/cask_arch_bug,casks/chatgpt.rb,2023-02-17T11:02:22Z,2023-02-17T11:03:21Z,lencx,"Revert ""fix: Hardware::CPU.arch may return arm64""",Reverts lencx/ChatGPT#424,
+424,fix/cask_arch_bug,casks/chatgpt.rb,2023-02-17T10:24:29Z,2023-02-17T10:52:55Z,zthreefires,fix: Hardware::CPU.arch may return arm64,,
+421,main,casks/chatgpt.rb,2023-02-17T09:01:27Z,2023-02-17T11:11:44Z,missuo,fix: Apple silicon cannot be installed,,
+420,patch-2,src-tauri/src/app/menu.rs,2023-02-17T08:05:06Z,2023-02-17T08:10:59Z,vangie,Update menu.rs,rename tray menu item name,
+417,patch-1,casks/chatgpt.rb,2023-02-17T03:31:36Z,2023-02-17T06:14:57Z,vangie,Update chatgpt.rb to support version 0.11.0 and compatible with aarch64,"1. Support version 0.11.0
+2. Compatible with aarch64",
+415,dev,"README-ZH_CN.md, README.md",2023-02-17T01:03:28Z,2023-02-17T01:03:34Z,lencx,readme,,
+408,dev,UPDATE_LOG.md,2023-02-16T17:22:39Z,2023-02-16T17:22:46Z,lencx,log,,
+407,dev,".github/workflows/release.yml, .gitignore, Cargo.lock, README-ZH_CN.md, README.md, UPDATE_LOG.md, casks/chatgpt.rb, package.json, pnpm-lock.yaml, scripts/download.js, src-tauri/Cargo.toml, src-tauri/src/app/setup.rs, src-tauri/src/app/window.rs, src-tauri/src/conf.rs, src-tauri/src/main.rs, src-tauri/src/scripts/export.js, src-tauri/tauri.conf.json, src/hooks/useTable.tsx, src/view/settings/General.tsx, src/view/settings/MainWindow.tsx, src/view/settings/TrayWindow.tsx, vite.config.ts",2023-02-16T16:28:11Z,2023-02-16T16:28:34Z,lencx,chore: mac aarch64,,
+397,main,README.md,2023-02-14T23:38:01Z,2023-02-15T06:12:39Z,targed,Update README.md,I added this package to the Chocolatey User Repository and updated the README to include the new way of installing it. I am in the process of getting the latest version approved. https://community.chocolatey.org/packages/chatgpt/,
+389,main,src-tauri/src/scripts/core.js,2023-02-14T08:19:48Z,2023-02-15T04:27:52Z,cyhhao,"Fix Chinese input method ""Enter"" ","Fix #369 
+
+ChatGPT 官方前端正确处理了中文输入法的问题，对 keydown 的 event.isComposing==true 进行了判断，输入法状态下按 Enter 不会发送消息。
+
+但是因为在 MacOS 上 Tauri 默认使用的是 Safari 内核，而 Safari 的 event.isComposing 始终为 false，只有通过 keyCode 来判断是否为输入法状态。
+
+因此只要全局阻止 e.keyCode==229 event 传递就可以了",
+377,doc,"README-ZH_CN.md, README.md, assets/zsxq-small.png, assets/zsxq.png",2023-02-13T05:49:26Z,2023-02-13T05:49:32Z,lencx,readme,,
+376,doc,"README-ZH_CN.md, README.md, assets/zsxq-small.png, assets/zsxq.png",2023-02-13T05:19:27Z,2023-02-13T05:19:35Z,lencx,add zsxq,,
+332,patch-1,README.md,2023-02-07T15:41:08Z,2023-02-08T16:55:30Z,vaibhavard,Update README.md to add a webapp option to directly try out your prompts,"added a webapp (created by me) option , so that user could directly try out your prompts without even registering with openai/chatgpt website or downloading desktop app.. Thank you , Your response will be appreciated 😀
+Here is how you can choose different prompts in settings after visiting my webapp ![image](https://user-images.githubusercontent.com/57561743/217230015-44702529-ff10-4b0c-88eb-dd10f2e245cd.png) ![image](https://user-images.githubusercontent.com/57561743/217230352-1adf8fc5-d438-4999-af06-35537e801027.png)",
+330,patch-1,casks/chatgpt.rb,2023-02-07T09:06:05Z,2023-02-07T14:56:21Z,cnyy7,Update chatgpt.rb to version 0.10.3,"checked locally:
+```shell
+brew reinstall --cask chatgpt --no-quarantine
+==> Downloading https://github.com/lencx/ChatGPT/releases/download/v0.10.3/ChatGPT_0.10.3_x64.dmg 
+==> Downloading from https://objects.githubusercontent.com/github-production-release-asset-2e65be/575340621/b 
+######################################################################## 100.0% 
+Warning: Cannot verify integrity of 'a77703907b8af9fcb951d9e896b73c3424f60799b39b49a6b9a2d2e3fca259e3--ChatGPT_0.10.3_x64.dmg'. 
+No checksum was provided for this cask.
+For your reference, the checksum is:
+  sha256 ""f44838a80844999191a303684fd7ae1811dd2fae6709aebe8bff23c70f9b8a10""
+==> Uninstalling Cask chatgpt
+==> Backing App 'ChatGPT.app' up to '/usr/local/Caskroom/chatgpt/0.6.10/ChatGPT.app' 
+==> Removing App '/Applications/ChatGPT.app'
+==> Purging files for version 0.6.10 of Cask chatgpt 
+==> Installing Cask chatgpt
+Warning: macOS's Gatekeeper has been disabled for this Cask 
+==> Moving App 'ChatGPT.app' to '/Applications/ChatGPT.app' 
+🍺  chatgpt was successfully installed!
+```",
+310,patch-1,README.md,2023-02-05T02:51:24Z,2023-02-05T05:04:37Z,rukh-debug,"Aur repo added, for git version of ChatGPT",,
+301,dev,"README-ZH_CN.md, README.md, UPDATE_LOG.md, src-tauri/src/conf.rs, src-tauri/src/scripts/cmd.js, src-tauri/src/scripts/export.js, src-tauri/src/scripts/markdown.export.js, src-tauri/tauri.conf.json",2023-02-03T06:39:43Z,2023-02-03T06:39:50Z,lencx,feat: markdown export (#233),,
+292,dev,"AWESOME.md, README-ZH_CN.md, README.md, UPDATE_LOG.md, chat.model.md, src-tauri/src/app/cmd.rs, src-tauri/src/app/menu.rs, src-tauri/src/app/setup.rs, src-tauri/src/app/window.rs, src-tauri/src/conf.rs, src-tauri/src/main.rs, src-tauri/src/scripts/cmd.js, src-tauri/src/scripts/core.js, src-tauri/src/scripts/export.js, src-tauri/src/utils.rs, src-tauri/tauri.conf.json",2023-02-01T17:11:58Z,2023-02-01T17:12:07Z,lencx,fix: export buttons,,
+288,dev,"AWESOME.md, UPDATE_LOG.md, chat.model.md, src-tauri/src/app/cmd.rs, src-tauri/src/app/menu.rs, src-tauri/src/app/setup.rs, src-tauri/src/app/window.rs, src-tauri/src/conf.rs, src-tauri/src/main.rs, src-tauri/src/scripts/export.js, src-tauri/src/utils.rs",2023-01-31T17:27:00Z,2023-02-01T02:33:24Z,ShuvangkarPal,Dev,gt e effi,
+266,dev,"src-tauri/src/app/cmd.rs, src-tauri/src/app/gpt.rs, src-tauri/src/app/menu.rs, src-tauri/src/app/setup.rs, src-tauri/src/conf.rs, src-tauri/src/main.rs, src-tauri/src/utils.rs, src/view/settings/General.tsx",2023-01-27T15:10:39Z,2023-01-27T15:10:47Z,lencx,chore: log,,
+256,dev,"src-tauri/src/app/cmd.rs, src-tauri/src/app/gpt.rs, src-tauri/src/app/menu.rs, src-tauri/src/app/setup.rs, src-tauri/src/app/window.rs, src-tauri/src/conf.rs, src-tauri/src/main.rs, src-tauri/src/scripts/core.js, src-tauri/src/scripts/export.js, src-tauri/src/scripts/popup.core.js, src-tauri/src/utils.rs, src/utils.ts, src/view/dashboard/index.tsx, src/view/settings/index.tsx",2023-01-26T16:26:29Z,2023-01-26T16:26:38Z,lencx,refactor: app conf,,
+250,dev,".github/workflows/release.yml, README-ZH_CN.md, README.md, UPDATE_LOG.md, src-tauri/src/app/menu.rs, src-tauri/src/app/setup.rs, src-tauri/src/scripts/core.js, src-tauri/tauri.conf.json, src/components/SwitchOrigin/index.tsx, src/view/about/index.scss, src/view/dashboard/index.tsx",2023-01-25T12:29:54Z,2023-01-25T12:30:07Z,lencx,feat: zoom level,,
+246,dev,".github/ISSUE_TEMPLATE/bug_report.yml, .github/ISSUE_TEMPLATE/build_error_report.yml, .github/ISSUE_TEMPLATE/docmentation_issue.yml, .github/ISSUE_TEMPLATE/feature_request.yml, .github/ISSUE_TEMPLATE/security.yml, .github/workflows/release.yml, .husky/pre-commit, .prettierignore, .prettierrc, Cargo.toml, README-ZH_CN.md, README.md, UPDATE_LOG.md, package.json, rustfmt.toml, scripts/download.js, src-tauri/Cargo.toml, src-tauri/build.rs, src-tauri/src/app/cmd.rs, src-tauri/src/app/fs_extra.rs, src-tauri/src/app/gpt.rs, src-tauri/src/app/menu.rs, src-tauri/src/app/mod.rs, src-tauri/src/app/setup.rs, src-tauri/src/app/window.rs, src-tauri/src/conf.rs, src-tauri/src/main.rs, src-tauri/src/scripts/core.js, src-tauri/src/scripts/popup.core.js, src-tauri/src/utils.rs",2023-01-24T19:08:15Z,2023-01-24T19:08:33Z,lencx,feat: awesome,,
+240,fix-nav-padding,src-tauri/src/scripts/core.js,2023-01-23T01:29:19Z,2023-01-24T16:31:29Z,agurod42,Add padding to navbar to avoid overlap with window control buttons,"Before:
+
+<img width=""912"" alt=""Screenshot 2023-01-22 at 20 25 47"" src=""https://user-images.githubusercontent.com/13837769/213952090-907c4571-be42-431c-b354-5bd2c8e31c95.png"">
+
+After:
+
+<img width=""912"" alt=""Screenshot 2023-01-22 at 20 25 39"" src=""https://user-images.githubusercontent.com/13837769/213952152-6df1a805-8894-4987-a474-8ffff00042ca.png"">
+
+
+
+","It is recommended to add a check domain condition statement, as the application will support loading other URLs in the future.
+
+```js
+if (window.location.host === 'chat.openai.com') {
+  // code
+}
+``` | I'll modify it, thanks for your contribution."
+234,main,,2023-01-21T02:47:01Z,2023-04-04T07:31:11Z,Centaurioun,Create .deepsource.toml,,
+214,dev,"README-ZH_CN.md, README.md, UPDATE_LOG.md, src-tauri/src/app/setup.rs, src-tauri/src/app/window.rs, src-tauri/src/conf.rs, src-tauri/src/scripts/cmd.js, src-tauri/src/scripts/core.js, src-tauri/src/scripts/dalle2.js, src-tauri/src/scripts/export.js, src-tauri/src/scripts/popup.core.js, src-tauri/src/vendors/jq.js, src-tauri/tauri.conf.json",2023-01-15T10:35:50Z,2023-01-15T10:35:57Z,lencx,fix: slash command does not work (#207),,
+212,dev,".github/workflows/release.yml, README-ZH_CN.md, README.md, UPDATE_LOG.md, scripts/download.js, src-tauri/src/scripts/cmd.js, src-tauri/src/scripts/export.js, src-tauri/src/scripts/popup.core.js, src-tauri/tauri.conf.json, src/hooks/useColumns.tsx, src/view/download/index.tsx, src/view/notes/index.tsx",2023-01-15T08:43:26Z,2023-01-15T08:43:34Z,lencx,fix: slash command does not work (#207),,
+206,dev,"README-ZH_CN.md, README.md, UPDATE_LOG.md, package.json, src-tauri/Cargo.toml, src-tauri/src/app/cmd.rs, src-tauri/src/app/fs_extra.rs, src-tauri/src/app/menu.rs, src-tauri/src/app/setup.rs, src-tauri/src/app/window.rs, src-tauri/src/conf.rs, src-tauri/src/main.rs, src-tauri/src/scripts/cmd.js, src-tauri/src/scripts/core.js, src-tauri/src/scripts/dalle2.js, src-tauri/src/scripts/export.js, src-tauri/src/scripts/markdown.export.js, src-tauri/src/scripts/popup.core.js, src-tauri/src/utils.rs, src-tauri/src/vendors/jq.js, src-tauri/src/vendors/turndown-plugin-gfm.js, src-tauri/src/vendors/turndown.js, src-tauri/tauri.conf.json, src/hooks/useColumns.tsx, src/hooks/useJson.ts, src/hooks/useTable.tsx, src/layout/index.tsx, src/main.scss, src/routes.tsx, src/utils.ts",2023-01-14T18:34:06Z,2023-01-14T18:34:21Z,lencx,feat: export (#175),,
+190,fix_export,"README-ZH_CN.md, README.md, UPDATE_LOG.md, src-tauri/src/assets/core.js, src-tauri/src/assets/dalle2.js, src-tauri/src/assets/export.js, src-tauri/tauri.conf.json",2023-01-12T13:06:07Z,2023-01-12T13:06:16Z,lencx,fix: export (#126 #185 #189),,
+169,dev,".github/workflows/release.yml, README-ZH_CN.md, README.md, UPDATE_LOG.md, assets/chat-cmd-1.png, assets/chat-cmd-2.png, assets/chatgpt-control-center-general.png, assets/chatgpt-dalle2-tray.png, assets/chatgpt-export.png, assets/chatgpt-menu.png, assets/chatgpt-popup-search.png, assets/chatgpt-sync-prompts.png, assets/control-center.png, assets/export.png, assets/tray-login.png, assets/tray.png, src-tauri/Cargo.toml, src-tauri/src/app/cmd.rs, src-tauri/src/app/menu.rs, src-tauri/src/app/setup.rs, src-tauri/src/app/window.rs, src-tauri/src/assets/cmd.js, src-tauri/src/assets/core.js, src-tauri/src/assets/dalle2.js, src-tauri/src/assets/popup.core.js, src-tauri/src/conf.rs, src-tauri/src/main.rs, src-tauri/src/utils.rs, src-tauri/src/vendors/floating-ui-core.js, src-tauri/src/vendors/floating-ui-dom.js",2023-01-07T07:27:07Z,2023-01-07T07:29:00Z,lencx,feat: pop-up search,,
+165,dev,src-tauri/src/app/menu.rs,2023-01-06T12:49:50Z,2023-01-06T14:09:07Z,Irene-123,Dev,"By mistake, I pushed the code once again as it showed me that the branch on my side is not up to date and had to create a PR. Sorry for the inconvenience. ",
+155,chore-dalle2,src-tauri/src/app/menu.rs,2023-01-05T16:25:30Z,2023-01-06T00:36:07Z,Irene-123,chore: dalle2(#122),"I have made a very minor change under dalle2 task
+
+Added a ""Search DALLE2"" under preferences.
+
+Thank you",
+154,patch-1,.github/workflows/release.yml,2023-01-05T09:49:06Z,2023-01-05T12:48:38Z,manudss,chore(release.yml): Add publish to winget in release actions ref #142 ,"See information about this github actions here : https://github.com/marketplace/actions/winget-releaser 
+
+ref : #142",
+153,yixinBC-patch-1,README.md,2023-01-05T04:41:20Z,2023-01-05T05:22:41Z,yixinBC,readme: AUR installation,,
+152,main,"src-tauri/src/app/cmd.rs, src-tauri/src/main.rs, src/layout/index.tsx",2023-01-05T04:38:17Z,2023-01-05T04:43:56Z,tk103331,control center theme,"Light Theme
+<img width=""800"" alt=""control_light"" src=""https://user-images.githubusercontent.com/4404609/210702681-693b8125-7c87-4512-9177-67c040fafca4.png"">
+Dark Theme
+<img width=""800"" alt=""control_dark"" src=""https://user-images.githubusercontent.com/4404609/210702691-6432e74c-0c66-44d7-b49b-b4244c813fa3.png"">
+",
+151,auto_update,"src-tauri/src/app/cmd.rs, src-tauri/src/app/menu.rs, src-tauri/src/app/setup.rs, src-tauri/src/conf.rs, src-tauri/src/utils.rs, src-tauri/tauri.conf.json, src/layout/index.tsx, src/view/General.tsx",2023-01-05T04:07:13Z,2023-01-05T04:29:54Z,tk103331,auto update policy,"![image](https://user-images.githubusercontent.com/4404609/210699749-328566ec-763c-4a87-bb2d-99c66a5667a6.png)
+",
+150,dev,"UPDATE_LOG.md, src-tauri/src/app/cmd.rs, src-tauri/src/app/menu.rs, src-tauri/src/app/setup.rs, src-tauri/src/app/window.rs, src-tauri/src/assets/dalle2.core.js, src-tauri/src/assets/dalle2.js, src-tauri/src/main.rs, src-tauri/src/vendors/floating-ui-core.js, src-tauri/src/vendors/floating-ui-dom.js, src-tauri/src/vendors/html2canvas.js, src-tauri/src/vendors/jspdf.js",2023-01-05T03:28:56Z,2023-01-05T16:25:55Z,Irene-123,Added dalle2 under preferences,"I have made a very minor change under dalle2 task
+
+Added a ""Search DALLE2"" under preferences. 
+
+Thank you",
+149,main,"src-tauri/src/app/cmd.rs, src-tauri/src/app/menu.rs, src-tauri/src/app/setup.rs, src-tauri/src/conf.rs, src-tauri/src/main.rs, src-tauri/src/utils.rs, src-tauri/tauri.conf.json, src/layout/index.tsx, src/view/General.tsx",2023-01-05T02:43:53Z,2023-01-05T03:59:58Z,tk103331,auto update policy,"
+<img width=""800"" alt=""control_update"" src=""https://user-images.githubusercontent.com/4404609/210689535-77a904fb-84a4-4fe0-9f38-99cbbcab4cf2.png"">
+
+<img width=""282"" alt=""menu_update"" src=""https://user-images.githubusercontent.com/4404609/210689555-db39e319-5e2c-4c37-a2b8-fca004b38e1a.png"">
+",
+148,main,"README-ZH_CN.md, README.md",2023-01-05T01:43:29Z,2023-01-05T03:26:20Z,yixinBC,readme:install,It's a pr for #142 ,
+147,main,.github/ISSUE_TEMPLATE/bug_report.yml,2023-01-04T09:49:05Z,2023-01-04T09:58:05Z,yixinBC,improve the bug report template,,
+145,main,"src-tauri/Cargo.toml, src-tauri/src/app/menu.rs, src-tauri/src/conf.rs, src/view/General.tsx",2023-01-04T09:00:47Z,2023-01-04T09:16:46Z,tk103331,Add feature: follow system theme,"Add feature: follow system theme
+
+<img width=""800"" alt=""system_theme"" src=""https://user-images.githubusercontent.com/4404609/210519495-3580fc67-e34a-4d98-a8d6-acf4ccb63849.png"">
+<img width=""290"" alt=""menu_system"" src=""https://user-images.githubusercontent.com/4404609/210519510-174be37a-5963-4673-bb60-ccf958031021.png"">
+",
+144,main,"src-tauri/src/app/cmd.rs, src-tauri/src/app/menu.rs, src-tauri/src/app/setup.rs, src-tauri/src/conf.rs, src-tauri/src/main.rs, src-tauri/src/utils.rs, src-tauri/tauri.conf.json, src/layout/index.scss, src/layout/index.tsx, src/view/General.tsx",2023-01-04T05:27:39Z,2023-01-04T05:53:57Z,tk103331,Optimize ‘check for updates’,"1、Manually check for updates in 'Control Center'
+<img width=""800"" alt=""control_center"" src=""https://user-images.githubusercontent.com/4404609/210489807-f3908766-f4c9-4c01-8295-7a02e259c624.png"">
+
+2、Manually check for updates in menu
+<img width=""201"" alt=""menu"" src=""https://user-images.githubusercontent.com/4404609/210489825-a3cf50e1-513d-44f0-912e-027429467c1c.png"">
+<img width=""260"" alt=""image"" src=""https://user-images.githubusercontent.com/4404609/210489942-c4bfeb40-b911-4490-9047-5690a179a52c.png"">
+
+
+3、Add 'Auto Check Update' config to control whether to check for updates on start
+<img width=""800"" alt=""auto"" src=""https://user-images.githubusercontent.com/4404609/210489851-7fb41e46-50c7-4688-b1af-3fe3d934b540.png"">
+",
+141,main,".github/ISSUE_TEMPLATE/bug_report.yml, .github/ISSUE_TEMPLATE/docmentation_issue.yml",2023-01-04T01:38:22Z,2023-01-04T01:41:45Z,yixinBC,Add isuue template for documentation,and a small typo fix,
+135,updated-frontend-readme,README.md,2023-01-03T11:45:18Z,2023-01-04T01:49:25Z,Irene-123,"fix: headers, license","Hello there, 
+I have updated the readme by fixing the headers, adding a license tag and some points. The changes are quite basic, if we need to do any other major changes, do let me know. Thank you",It's better to use \*\*  \*\* for bold | those four elements are in one level and don't have particular orders. | those four elements are in one level and don't have particular orders. | those four elements are in one level and don't have particular orders. | those four elements are in one level and don't have particular orders. | so just don't make changes there | sure
+132,main,".github/ISSUE_TEMPLATE/bug_report.yml, .github/ISSUE_TEMPLATE/build_error_report.yml, .github/ISSUE_TEMPLATE/config.yml, .github/ISSUE_TEMPLATE/feature_request.yml, .github/ISSUE_TEMPLATE/security.yml",2023-01-03T10:43:33Z,2023-01-03T10:47:57Z,yixinBC,add issue templates,,
+130,main,"src-tauri/src/app/cmd.rs, src-tauri/src/conf.rs, src-tauri/src/main.rs, src/view/General.tsx",2023-01-03T09:36:35Z,2023-01-03T09:43:47Z,tk103331,"Add ""Reset to defaults"" in Control Center","Add ""Reset to defaults"" in Control Center
+
+<img width=""800"" alt=""chatgpt-reset"" src=""https://user-images.githubusercontent.com/4404609/210331794-cc57034c-92a2-4517-af1b-cb3e07642172.png"">
+",
+128,patch-1,AWESOME.md,2023-01-03T07:51:04Z,2023-01-03T08:28:32Z,turric4n,Update AWESOME.md,,
+127,patch-1,README.md,2023-01-02T17:16:53Z,2023-01-03T14:04:14Z,beyzadp,Update README.md,,
+121,yixinBC-patch-1,README.md,2023-01-01T04:53:08Z,2023-01-01T05:12:09Z,yixinBC,make AppImage the default Linux installation file,"Almost all Linux distributions can run AppImage file,however, only those Linux distributions which has  `dpkg` command can install a deb file.BTW, AppImage contains all the dependencies and library files that app needs while running,which can avoid many local library link errors.",
+119,doc,README-ZH_CN.md,2022-12-31T14:38:38Z,2022-12-31T14:38:43Z,lencx,readme,,
+118,revert-117-doc,,2022-12-31T13:38:36Z,2022-12-31T13:39:30Z,lencx,"Revert ""doc: readme""",Reverts lencx/ChatGPT#117,
+117,doc,"README-ZH_CN.md, README.md, UPDATE_LOG.md, src-tauri/Cargo.toml, src-tauri/src/app/cmd.rs, src-tauri/src/app/setup.rs, src-tauri/src/app/window.rs, src-tauri/src/assets/core.js, src-tauri/src/conf.rs, src-tauri/src/main.rs, src-tauri/src/utils.rs, src-tauri/tauri.conf.json, src/view/General.tsx, src/view/model/SyncCustom/index.tsx, src/view/model/SyncPrompts/index.tsx, src/view/model/SyncRecord/config.tsx",2022-12-31T13:32:50Z,2022-12-31T13:33:34Z,lencx,doc: readme,,
+116,main,README-ZH_CN.md,2022-12-31T13:11:43Z,2022-12-31T13:17:41Z,VinchanGit,doc: readme zh-cn,,
+115,dev,"README-ZH_CN.md, README.md, UPDATE_LOG.md, src-tauri/Cargo.toml, src-tauri/src/app/cmd.rs, src-tauri/src/app/setup.rs, src-tauri/src/app/window.rs, src-tauri/src/assets/core.js, src-tauri/src/conf.rs, src-tauri/src/main.rs, src-tauri/src/utils.rs, src-tauri/tauri.conf.json, src/view/General.tsx, src/view/model/SyncCustom/index.tsx, src/view/model/SyncPrompts/index.tsx, src/view/model/SyncRecord/config.tsx",2022-12-31T12:27:38Z,2022-12-31T12:27:50Z,lencx,fix: customize global shortcuts,,
+101,dev,"README-ZH_CN.md, README.md, UPDATE_LOG.md, src-tauri/Cargo.toml, src-tauri/src/app/menu.rs, src-tauri/src/app/setup.rs, src-tauri/src/app/window.rs, src-tauri/src/assets/cmd.js, src-tauri/src/conf.rs, src-tauri/src/main.rs, src-tauri/tauri.conf.json",2022-12-29T13:31:37Z,2022-12-29T13:31:44Z,lencx,chore: optimize,,
+97,main,src-tauri/src/assets/export.js,2022-12-28T09:53:09Z,2022-12-28T10:22:32Z,Sturlen,Make the added action buttons match the existing text color,"Previous:
+![image](https://user-images.githubusercontent.com/43607012/209793318-4ef0630d-a00a-4c2f-acf2-696b6008baf1.png)
+
+
+New:
+![image](https://user-images.githubusercontent.com/43607012/209792825-ecfc7aec-51c1-42b9-bdfd-8e2331436f5c.png)
+
+Uses the existing text color of the button.",
+92,dev,"README-ZH_CN.md, README.md, UPDATE_LOG.md, src-tauri/icons/tray-icon-light.png, src-tauri/src/app/menu.rs, src-tauri/src/app/setup.rs, src-tauri/src/utils.rs, src-tauri/tauri.conf.json",2022-12-27T19:48:40Z,2022-12-27T19:49:04Z,lencx,fix: windows can't start,,
+91,dev,".github/workflows/release.yml, README-ZH_CN.md, README.md, UPDATE_LOG.md, package.json, src-tauri/Cargo.toml, src-tauri/icons/tray-icon-light.png, src-tauri/src/app/menu.rs, src-tauri/src/utils.rs, src-tauri/tauri.conf.json",2022-12-27T17:43:27Z,2022-12-27T17:44:23Z,lencx,fix: tray icon & windows can't start (#87 #85),,
+86,menu-warn,src-tauri/src/app/menu.rs,2022-12-27T12:51:20Z,2022-12-27T13:15:28Z,xueweiwujxw,🐞 fix(src-tauri/src/app/menu.rs): fix warning on linux,"add `#[cfg(target_os = ""macos"")]` when declare titlebar and titlebar_menu",
+84,dev,"README-ZH_CN.md, README.md, UPDATE_LOG.md, src-tauri/src/app/cmd.rs, src-tauri/src/app/setup.rs, src-tauri/src/app/window.rs, src-tauri/src/assets/cmd.js, src-tauri/src/assets/core.js, src-tauri/src/assets/export.js, src-tauri/tauri.conf.json",2022-12-27T07:31:47Z,2022-12-27T07:31:56Z,lencx,feat: use the keyboard to select the slash command,,
+81,patch-1,src-tauri/Cargo.toml,2022-12-27T03:36:40Z,2022-12-27T04:17:58Z,beilunyang,fix(build): mac m1 chip copy/paste,Hi guy! This pr fixes the bug that the mac m1 chip computer cannot use the paste shortcut key,
+79,patch-1,casks/chatgpt.rb,2022-12-25T23:29:55Z,2022-12-26T02:19:28Z,weltonrodrigo,bump homebrew cask to 0.6.10,,
+78,dev,"README-ZH_CN.md, README.md, UPDATE_LOG.md, src-tauri/tauri.conf.json, src/utils.ts",2022-12-25T01:22:10Z,2022-12-25T01:22:15Z,lencx,fix: windows sync,,
+77,dev,"README-ZH_CN.md, README.md, UPDATE_LOG.md, src-tauri/tauri.conf.json, src/utils.ts",2022-12-24T18:27:53Z,2022-12-24T18:27:58Z,lencx,v0.6.9,,
+73,dev,"README-ZH_CN.md, README.md, UPDATE_LOG.md, src-tauri/tauri.conf.json",2022-12-24T14:56:20Z,2022-12-24T14:56:31Z,lencx,v0.6.8,,
+72,dev,"README-ZH_CN.md, README.md, UPDATE_LOG.md, src-tauri/tauri.conf.json",2022-12-24T13:51:13Z,2022-12-24T13:51:21Z,lencx,v0.6.7,,
+71,dev,"README-ZH_CN.md, README.md, UPDATE_LOG.md, src-tauri/src/app/cmd.rs, src-tauri/src/app/setup.rs, src-tauri/src/app/window.rs, src-tauri/tauri.conf.json, src/main.scss",2022-12-24T13:20:33Z,2022-12-24T13:20:41Z,lencx,fix: unable to synchronize,,
+70,dev,"README-ZH_CN.md, README.md, UPDATE_LOG.md, src-tauri/Cargo.toml, src-tauri/src/app/cmd.rs, src-tauri/src/app/menu.rs, src-tauri/src/app/setup.rs, src-tauri/src/app/window.rs, src-tauri/src/assets/cmd.js, src-tauri/src/assets/core.js, src-tauri/src/main.rs, src-tauri/src/utils.rs, src-tauri/tauri.conf.json, src/hooks/useData.ts, src/hooks/useEvent.ts, src/main.tsx, src/utils.ts, src/view/model/SyncCustom/Form.tsx, src/view/model/SyncCustom/config.tsx, src/view/model/SyncCustom/index.tsx, src/view/model/SyncPrompts/index.tsx, src/view/model/SyncRecord/config.tsx",2022-12-24T12:26:17Z,2022-12-24T12:26:23Z,lencx,chore: optim,,
+69,patch-1,README.md,2022-12-23T16:37:38Z,2022-12-23T17:10:52Z,JacobLinCool,docs: fix cask name in the brewfile section,"Hello,
+
+This PR fixes the cask name in the `brewfile` section. I noticed that this had been causing some confusion for users, so I hope this helps to clear things up.
+
+I also wanted to express my gratitude to you as the maintainer for all of your hard work on this project. Your efforts are greatly appreciated and make a big difference for everyone who uses ChatGPT.
+
+Thank you again for all that you do, and I hope you find this PR to be useful.
+",
+67,fix,"README-ZH_CN.md, README.md, UPDATE_LOG.md, src-tauri/tauri.conf.json",2022-12-23T15:07:43Z,2022-12-23T15:07:55Z,lencx,fix: path not allowed on the configured scope (#64),,
+66,fix,".github/workflows/release.yml, README-ZH_CN.md, README.md, UPDATE_LOG.md, src-tauri/tauri.conf.json",2022-12-23T14:41:00Z,2022-12-23T14:41:09Z,lencx,fix: path not allowed on the configured scope,,
+65,fix,"README-ZH_CN.md, README.md, UPDATE_LOG.md, src-tauri/tauri.conf.json",2022-12-23T13:45:55Z,2022-12-23T13:46:01Z,lencx,fix: path not allowed on the configured scope,,
+63,fix,"README-ZH_CN.md, README.md, UPDATE_LOG.md, src-tauri/tauri.conf.json, src/utils.ts",2022-12-23T12:21:28Z,2022-12-23T12:21:35Z,lencx,fix: path not allowed on the configured scope,,
+62,dev,"README-ZH_CN.md, README.md, UPDATE_LOG.md, assets/chatgpt-cmd.gif, chat.model.json, package.json, src-tauri/Cargo.toml, src-tauri/src/app/cmd.rs, src-tauri/src/app/menu.rs, src-tauri/src/assets/cmd.js, src-tauri/src/assets/export.js, src-tauri/src/main.rs, src-tauri/src/utils.rs, src-tauri/tauri.conf.json, src/hooks/useChatModel.ts, src/hooks/useData.ts, src/hooks/useEvent.ts, src/hooks/useTable.tsx, src/layout/index.tsx, src/main.scss, src/main.tsx, src/routes.tsx, src/utils.ts, src/view/LanguageModel/index.scss, src/view/LanguageModel/index.tsx, src/view/SyncPrompts/index.scss, src/view/SyncPrompts/index.tsx, src/view/model/SyncCustom/Form.tsx, src/view/model/SyncCustom/config.tsx, src/view/model/SyncCustom/index.tsx",2022-12-23T11:19:37Z,2022-12-23T11:20:39Z,lencx,feat: sync,,
+53,dev,"README-ZH_CN.md, README.md, UPDATE_LOG.md, src-tauri/tauri.conf.json",2022-12-19T17:31:46Z,2022-12-19T17:31:53Z,lencx,chore: optim,,
+46,dev,"README-ZH_CN.md, README.md, UPDATE_LOG.md, package.json, src-tauri/Cargo.toml, src-tauri/src/app/cmd.rs, src-tauri/src/app/fs_extra.rs, src-tauri/src/app/mod.rs, src-tauri/src/assets/cmd.js, src-tauri/src/main.rs, src-tauri/tauri.conf.json, src/hooks/useChatModel.ts, src/hooks/useInit.ts, src/layout/index.scss, src/layout/index.tsx, src/routes.tsx, src/utils.ts, src/view/LanguageModel/index.tsx, src/view/SyncPrompts/config.tsx, src/view/SyncPrompts/index.scss, src/view/SyncPrompts/index.tsx",2022-12-18T19:11:56Z,2022-12-18T19:12:07Z,lencx,feat: chatgpt-prompts sync,,
+44,fix,"README-ZH_CN.md, README.md, UPDATE_LOG.md, src-tauri/Cargo.toml, src-tauri/src/app/cmd.rs, src-tauri/src/app/menu.rs, src-tauri/src/app/setup.rs, src-tauri/src/main.rs, src-tauri/src/utils.rs, src-tauri/tauri.conf.json",2022-12-18T04:10:56Z,2022-12-18T04:11:05Z,lencx,chore: add log,,
+40,fix,"README-ZH_CN.md, README.md, UPDATE_LOG.md, src-tauri/src/assets/cmd.js, src-tauri/tauri.conf.json, src/view/LanguageModel/index.tsx",2022-12-17T13:50:55Z,2022-12-17T13:51:10Z,lencx,fix: tray window style optimization (#39),,
+38,dev,".gitattributes, README-ZH_CN.md, README.md, UPDATE_LOG.md, assets/chat-cmd-1.png, assets/chat-cmd-2.png, assets/chatgpt.gif, chat.model.json, chat.model.md, package.json, scripts/download.js, src-tauri/src/app/cmd.rs, src-tauri/src/app/menu.rs, src-tauri/src/app/setup.rs, src-tauri/src/app/window.rs, src-tauri/src/assets/cmd.js, src-tauri/src/assets/core.js, src-tauri/src/conf.rs, src-tauri/src/main.rs, src-tauri/tauri.conf.json, src/components/Tags/index.tsx, src/hooks/useChatModel.ts, src/hooks/useColumns.ts, src/hooks/useData.ts, src/hooks/useInit.ts, src/layout/index.scss, src/layout/index.tsx, src/routes.tsx, src/utils.ts, src/view/ChatGPTPrompts.tsx",2022-12-17T10:12:01Z,2022-12-17T10:12:10Z,lencx,feat: chatgpt prompts,,
+32,dev,".gitattributes, .github/workflows/release.yml, .gitignore, AWESOME.md, README-ZH.md, README.md, UPDATE_LOG.md, assets/auto-update.png, assets/chat-ua.png, assets/chat.png, assets/control-center.png, assets/tray-login.png, dist/.gitkeep, index.html, package.json, scripts/download.js, src-tauri/src/app/cmd.rs, src-tauri/src/app/menu.rs, src-tauri/src/app/setup.rs, src-tauri/src/app/window.rs, src-tauri/src/assets/core.js, src-tauri/src/assets/export.js, src-tauri/src/assets/origin.js, src-tauri/src/assets/ua.js, src-tauri/src/conf.rs, src-tauri/src/main.rs, src-tauri/tauri.conf.json, src/layout/index.scss, src/layout/index.tsx, src/main.scss",2022-12-15T05:53:27Z,2022-12-15T05:53:38Z,lencx,feat: control center,,
+29,doc,"README-ZH.md, README.md, public/logo.png",2022-12-13T12:02:55Z,2022-12-13T12:03:28Z,lencx,readme,,
+27,doc,"LICENSE, README-ZH.md, README.md",2022-12-13T06:22:21Z,2022-12-13T06:22:36Z,lencx,License,,
+26,doc,"README-ZH.md, README.md",2022-12-13T04:49:14Z,2022-12-13T04:49:19Z,lencx,add chinese,,
+23,dev,"AWESOME.md, README.md, UPDATE_LOG.md, src-tauri/src/app/menu.rs, src-tauri/src/conf.rs, src-tauri/tauri.conf.json",2022-12-12T11:32:28Z,2022-12-12T11:32:36Z,lencx,menu optimization,,
+22,doc,README.md,2022-12-12T08:30:11Z,2022-12-12T08:30:18Z,lencx,readme,,
+21,doc,README.md,2022-12-12T08:26:44Z,2022-12-12T08:26:50Z,lencx,readme,,
+19,doc,"README.md, assets/chat-ua.png",2022-12-12T06:14:00Z,2022-12-12T06:14:07Z,lencx,readme,,
+18,dev,"README.md, UPDATE_LOG.md, src-tauri/src/app/menu.rs, src-tauri/src/app/setup.rs, src-tauri/src/app/window.rs, src-tauri/src/assets/origin.js, src-tauri/src/assets/ua.js, src-tauri/src/conf.rs, src-tauri/src/utils.rs, src-tauri/tauri.conf.json",2022-12-12T05:04:55Z,2022-12-12T05:05:06Z,lencx,fix(#17): checking if the site connection is secure,,
+15,dev,"README.md, UPDATE_LOG.md, package.json, src-tauri/Cargo.toml, src-tauri/icons/tray-icon.png, src-tauri/src/app/cmd.rs, src-tauri/src/app/menu.rs, src-tauri/src/app/setup.rs, src-tauri/src/app/window.rs, src-tauri/src/assets/core.js, src-tauri/src/assets/export.js, src-tauri/src/assets/origin.js, src-tauri/src/conf.rs, src-tauri/src/main.rs, src-tauri/src/utils.rs, src-tauri/tauri.conf.json",2022-12-11T19:19:19Z,2022-12-11T19:19:46Z,lencx,feat: add menu item,,
+13,doc,README.md,2022-12-10T18:07:11Z,2022-12-10T18:07:18Z,lencx,readme,,
+12,main,"README.md, casks/chatgpt.rb",2022-12-10T17:30:05Z,2022-12-10T17:58:05Z,danielbayley,Add Homebrew Cask,,
+11,dev,"README.md, UPDATE_LOG.md, assets/tray.png, src-tauri/Cargo.toml, src-tauri/src/app/menu.rs, src-tauri/src/app/mod.rs, src-tauri/src/app/setup.rs, src-tauri/src/app/window.rs, src-tauri/src/assets/core.js, src-tauri/src/conf.rs, src-tauri/src/main.rs, src-tauri/tauri.conf.json",2022-12-10T14:46:59Z,2022-12-10T14:47:46Z,lencx,feat: tray window,,
+10,doc,scripts/download.js,2022-12-10T04:22:14Z,2022-12-10T04:22:21Z,lencx,chore: download,,
+9,doc,"README.md, package.json, scripts/download.js",2022-12-10T04:19:24Z,2022-12-10T04:19:30Z,lencx,chore: download,,
+8,doc,README.md,2022-12-10T02:50:19Z,2022-12-10T02:50:26Z,lencx,readme,,
+7,main,,2022-12-10T02:48:17Z,2022-12-10T02:49:52Z,lencx,readme,,
+6,doc,README.md,2022-12-10T02:45:19Z,2022-12-10T02:45:28Z,lencx,readme,,
+5,dev,".gitattributes, README.md, UPDATE_LOG.md, assets/chat.png, assets/export.png, src-tauri/src/app/cmd.rs, src-tauri/src/app/menu.rs, src-tauri/src/app/setup.rs, src-tauri/src/assets/core.js, src-tauri/src/assets/export.js, src-tauri/src/assets/html2canvas.js, src-tauri/src/assets/jspdf.js, src-tauri/src/conf.rs, src-tauri/src/main.rs, src-tauri/src/utils.rs, src-tauri/tauri.conf.json",2022-12-09T19:49:18Z,2022-12-09T19:53:10Z,lencx,feat: export history,,
+3,awesome,"AWESOME.md, README.md",2022-12-09T06:03:00Z,2022-12-09T06:03:15Z,lencx,doc: add awesome,,

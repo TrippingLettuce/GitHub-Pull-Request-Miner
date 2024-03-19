@@ -1,0 +1,1434 @@
+2024-03-18 20:33:11 - INFO - Application start
+2024-03-18 20:33:11 - INFO - Fetching PRs page 1
+2024-03-18 20:33:11 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:12 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls?state=closed&per_page=100&page=1 HTTP/1.1" 200 None
+2024-03-18 20:33:12 - DEBUG - Fetched 100 PRs
+2024-03-18 20:33:12 - INFO - Fetching PRs page 2
+2024-03-18 20:33:12 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:13 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls?state=closed&per_page=100&page=2 HTTP/1.1" 200 None
+2024-03-18 20:33:13 - DEBUG - Fetched 40 PRs
+2024-03-18 20:33:13 - INFO - Fetching PRs page 3
+2024-03-18 20:33:13 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:13 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls?state=closed&per_page=100&page=3 HTTP/1.1" 200 2
+2024-03-18 20:33:13 - INFO - No more PRs to fetch
+2024-03-18 20:33:13 - DEBUG - Fetching details for PR #1226
+2024-03-18 20:33:13 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:14 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1226/files HTTP/1.1" 200 None
+2024-03-18 20:33:14 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:14 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1226/comments HTTP/1.1" 200 2
+2024-03-18 20:33:14 - DEBUG - Fetching details for PR #1223
+2024-03-18 20:33:14 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:15 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1223/files HTTP/1.1" 200 None
+2024-03-18 20:33:15 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:15 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1223/comments HTTP/1.1" 200 2
+2024-03-18 20:33:15 - DEBUG - Fetching details for PR #1200
+2024-03-18 20:33:15 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:16 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1200/files HTTP/1.1" 200 None
+2024-03-18 20:33:16 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:16 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1200/comments HTTP/1.1" 200 2
+2024-03-18 20:33:16 - DEBUG - Fetching details for PR #1172
+2024-03-18 20:33:16 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:16 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1172/files HTTP/1.1" 200 None
+2024-03-18 20:33:16 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:17 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1172/comments HTTP/1.1" 200 2
+2024-03-18 20:33:17 - DEBUG - Fetching details for PR #1101
+2024-03-18 20:33:17 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:17 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1101/files HTTP/1.1" 200 None
+2024-03-18 20:33:17 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:18 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1101/comments HTTP/1.1" 200 2
+2024-03-18 20:33:18 - DEBUG - Fetching details for PR #1083
+2024-03-18 20:33:18 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:18 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1083/files HTTP/1.1" 200 None
+2024-03-18 20:33:18 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:19 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1083/comments HTTP/1.1" 200 2
+2024-03-18 20:33:19 - DEBUG - Fetching details for PR #1074
+2024-03-18 20:33:19 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:19 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1074/files HTTP/1.1" 200 None
+2024-03-18 20:33:19 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:20 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1074/comments HTTP/1.1" 200 2
+2024-03-18 20:33:20 - DEBUG - Fetching details for PR #1017
+2024-03-18 20:33:20 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:20 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1017/files HTTP/1.1" 200 None
+2024-03-18 20:33:20 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:21 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1017/comments HTTP/1.1" 200 2
+2024-03-18 20:33:21 - DEBUG - Fetching details for PR #988
+2024-03-18 20:33:21 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:21 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/988/files HTTP/1.1" 200 None
+2024-03-18 20:33:21 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:22 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/988/comments HTTP/1.1" 200 2
+2024-03-18 20:33:22 - DEBUG - Fetching details for PR #985
+2024-03-18 20:33:22 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:22 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/985/files HTTP/1.1" 200 None
+2024-03-18 20:33:22 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:22 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/985/comments HTTP/1.1" 200 2
+2024-03-18 20:33:22 - DEBUG - Fetching details for PR #984
+2024-03-18 20:33:22 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:23 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/984/files HTTP/1.1" 200 None
+2024-03-18 20:33:23 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:23 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/984/comments HTTP/1.1" 200 2
+2024-03-18 20:33:23 - DEBUG - Fetching details for PR #979
+2024-03-18 20:33:23 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:24 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/979/files HTTP/1.1" 200 None
+2024-03-18 20:33:24 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:24 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/979/comments HTTP/1.1" 200 2
+2024-03-18 20:33:24 - DEBUG - Fetching details for PR #918
+2024-03-18 20:33:24 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:25 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/918/files HTTP/1.1" 200 None
+2024-03-18 20:33:25 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:25 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/918/comments HTTP/1.1" 200 2
+2024-03-18 20:33:25 - DEBUG - Fetching details for PR #914
+2024-03-18 20:33:25 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:26 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/914/files HTTP/1.1" 200 None
+2024-03-18 20:33:26 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:26 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/914/comments HTTP/1.1" 200 2
+2024-03-18 20:33:26 - DEBUG - Fetching details for PR #912
+2024-03-18 20:33:26 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:27 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/912/files HTTP/1.1" 200 None
+2024-03-18 20:33:27 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:27 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/912/comments HTTP/1.1" 200 2
+2024-03-18 20:33:27 - DEBUG - Fetching details for PR #862
+2024-03-18 20:33:27 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:28 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/862/files HTTP/1.1" 200 None
+2024-03-18 20:33:28 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:28 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/862/comments HTTP/1.1" 200 2
+2024-03-18 20:33:28 - DEBUG - Fetching details for PR #837
+2024-03-18 20:33:28 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:29 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/837/files HTTP/1.1" 200 None
+2024-03-18 20:33:29 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:29 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/837/comments HTTP/1.1" 200 2
+2024-03-18 20:33:29 - DEBUG - Fetching details for PR #812
+2024-03-18 20:33:29 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:29 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/812/files HTTP/1.1" 200 None
+2024-03-18 20:33:29 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:30 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/812/comments HTTP/1.1" 200 2
+2024-03-18 20:33:30 - DEBUG - Fetching details for PR #723
+2024-03-18 20:33:30 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:30 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/723/files HTTP/1.1" 200 None
+2024-03-18 20:33:30 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:31 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/723/comments HTTP/1.1" 200 2
+2024-03-18 20:33:31 - DEBUG - Fetching details for PR #697
+2024-03-18 20:33:31 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:31 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/697/files HTTP/1.1" 200 None
+2024-03-18 20:33:31 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:31 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/697/comments HTTP/1.1" 200 2
+2024-03-18 20:33:31 - DEBUG - Fetching details for PR #666
+2024-03-18 20:33:31 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:32 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/666/files HTTP/1.1" 200 None
+2024-03-18 20:33:32 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:32 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/666/comments HTTP/1.1" 200 2
+2024-03-18 20:33:32 - DEBUG - Fetching details for PR #660
+2024-03-18 20:33:32 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:33 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/660/files HTTP/1.1" 200 None
+2024-03-18 20:33:33 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:33 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/660/comments HTTP/1.1" 200 2
+2024-03-18 20:33:33 - DEBUG - Fetching details for PR #612
+2024-03-18 20:33:33 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:34 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/612/files HTTP/1.1" 200 None
+2024-03-18 20:33:34 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:34 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/612/comments HTTP/1.1" 200 2
+2024-03-18 20:33:34 - DEBUG - Fetching details for PR #596
+2024-03-18 20:33:34 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:34 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/596/files HTTP/1.1" 200 None
+2024-03-18 20:33:35 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:35 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/596/comments HTTP/1.1" 200 2
+2024-03-18 20:33:35 - DEBUG - Fetching details for PR #572
+2024-03-18 20:33:35 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:35 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/572/files HTTP/1.1" 200 None
+2024-03-18 20:33:35 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:36 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/572/comments HTTP/1.1" 200 2
+2024-03-18 20:33:36 - DEBUG - Fetching details for PR #561
+2024-03-18 20:33:36 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:36 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/561/files HTTP/1.1" 200 None
+2024-03-18 20:33:36 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:37 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/561/comments HTTP/1.1" 200 2
+2024-03-18 20:33:37 - DEBUG - Fetching details for PR #549
+2024-03-18 20:33:37 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:37 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/549/files HTTP/1.1" 200 None
+2024-03-18 20:33:37 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:37 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/549/comments HTTP/1.1" 200 2
+2024-03-18 20:33:38 - DEBUG - Fetching details for PR #548
+2024-03-18 20:33:38 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:38 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/548/files HTTP/1.1" 200 None
+2024-03-18 20:33:38 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:38 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/548/comments HTTP/1.1" 200 2
+2024-03-18 20:33:38 - DEBUG - Fetching details for PR #547
+2024-03-18 20:33:38 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:39 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/547/files HTTP/1.1" 200 None
+2024-03-18 20:33:39 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:39 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/547/comments HTTP/1.1" 200 2
+2024-03-18 20:33:39 - DEBUG - Fetching details for PR #507
+2024-03-18 20:33:39 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:40 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/507/files HTTP/1.1" 200 None
+2024-03-18 20:33:40 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:40 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/507/comments HTTP/1.1" 200 2
+2024-03-18 20:33:40 - DEBUG - Fetching details for PR #506
+2024-03-18 20:33:40 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:41 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/506/files HTTP/1.1" 200 None
+2024-03-18 20:33:41 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:41 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/506/comments HTTP/1.1" 200 2
+2024-03-18 20:33:41 - DEBUG - Fetching details for PR #505
+2024-03-18 20:33:41 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:42 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/505/files HTTP/1.1" 200 None
+2024-03-18 20:33:42 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:42 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/505/comments HTTP/1.1" 200 2
+2024-03-18 20:33:42 - DEBUG - Fetching details for PR #504
+2024-03-18 20:33:42 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:42 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/504/files HTTP/1.1" 200 None
+2024-03-18 20:33:42 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:43 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/504/comments HTTP/1.1" 200 2
+2024-03-18 20:33:43 - DEBUG - Fetching details for PR #495
+2024-03-18 20:33:43 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:43 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/495/files HTTP/1.1" 200 None
+2024-03-18 20:33:43 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:44 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/495/comments HTTP/1.1" 200 2
+2024-03-18 20:33:44 - DEBUG - Fetching details for PR #491
+2024-03-18 20:33:44 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:44 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/491/files HTTP/1.1" 200 None
+2024-03-18 20:33:44 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:44 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/491/comments HTTP/1.1" 200 2
+2024-03-18 20:33:44 - DEBUG - Fetching details for PR #479
+2024-03-18 20:33:44 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:45 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/479/files HTTP/1.1" 200 None
+2024-03-18 20:33:45 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:46 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/479/comments HTTP/1.1" 200 2
+2024-03-18 20:33:46 - DEBUG - Fetching details for PR #478
+2024-03-18 20:33:46 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:46 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/478/files HTTP/1.1" 200 None
+2024-03-18 20:33:46 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:47 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/478/comments HTTP/1.1" 200 2
+2024-03-18 20:33:47 - DEBUG - Fetching details for PR #476
+2024-03-18 20:33:47 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:47 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/476/files HTTP/1.1" 200 None
+2024-03-18 20:33:47 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:47 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/476/comments HTTP/1.1" 200 2
+2024-03-18 20:33:47 - DEBUG - Fetching details for PR #475
+2024-03-18 20:33:47 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:48 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/475/files HTTP/1.1" 200 None
+2024-03-18 20:33:48 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:48 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/475/comments HTTP/1.1" 200 2
+2024-03-18 20:33:48 - DEBUG - Fetching details for PR #472
+2024-03-18 20:33:48 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:49 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/472/files HTTP/1.1" 200 None
+2024-03-18 20:33:49 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:49 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/472/comments HTTP/1.1" 200 2
+2024-03-18 20:33:49 - DEBUG - Fetching details for PR #464
+2024-03-18 20:33:49 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:50 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/464/files HTTP/1.1" 200 None
+2024-03-18 20:33:50 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:50 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/464/comments HTTP/1.1" 200 2
+2024-03-18 20:33:50 - DEBUG - Fetching details for PR #426
+2024-03-18 20:33:50 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:51 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/426/files HTTP/1.1" 200 None
+2024-03-18 20:33:51 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:51 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/426/comments HTTP/1.1" 200 2
+2024-03-18 20:33:51 - DEBUG - Fetching details for PR #425
+2024-03-18 20:33:51 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:51 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/425/files HTTP/1.1" 200 None
+2024-03-18 20:33:51 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:52 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/425/comments HTTP/1.1" 200 2
+2024-03-18 20:33:52 - DEBUG - Fetching details for PR #424
+2024-03-18 20:33:52 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:52 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/424/files HTTP/1.1" 200 None
+2024-03-18 20:33:52 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:53 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/424/comments HTTP/1.1" 200 2
+2024-03-18 20:33:53 - DEBUG - Fetching details for PR #421
+2024-03-18 20:33:53 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:53 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/421/files HTTP/1.1" 200 None
+2024-03-18 20:33:53 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:54 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/421/comments HTTP/1.1" 200 2
+2024-03-18 20:33:54 - DEBUG - Fetching details for PR #420
+2024-03-18 20:33:54 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:54 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/420/files HTTP/1.1" 200 None
+2024-03-18 20:33:54 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:55 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/420/comments HTTP/1.1" 200 2
+2024-03-18 20:33:55 - DEBUG - Fetching details for PR #417
+2024-03-18 20:33:55 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:55 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/417/files HTTP/1.1" 200 None
+2024-03-18 20:33:55 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:56 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/417/comments HTTP/1.1" 200 2
+2024-03-18 20:33:56 - DEBUG - Fetching details for PR #415
+2024-03-18 20:33:56 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:56 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/415/files HTTP/1.1" 200 None
+2024-03-18 20:33:56 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:57 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/415/comments HTTP/1.1" 200 2
+2024-03-18 20:33:57 - DEBUG - Fetching details for PR #408
+2024-03-18 20:33:57 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:57 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/408/files HTTP/1.1" 200 None
+2024-03-18 20:33:57 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:58 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/408/comments HTTP/1.1" 200 2
+2024-03-18 20:33:58 - DEBUG - Fetching details for PR #407
+2024-03-18 20:33:58 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:58 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/407/files HTTP/1.1" 200 None
+2024-03-18 20:33:58 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:59 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/407/comments HTTP/1.1" 200 2
+2024-03-18 20:33:59 - DEBUG - Fetching details for PR #397
+2024-03-18 20:33:59 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:59 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/397/files HTTP/1.1" 200 None
+2024-03-18 20:33:59 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:33:59 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/397/comments HTTP/1.1" 200 2
+2024-03-18 20:33:59 - DEBUG - Fetching details for PR #389
+2024-03-18 20:33:59 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:00 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/389/files HTTP/1.1" 200 None
+2024-03-18 20:34:00 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:00 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/389/comments HTTP/1.1" 200 2
+2024-03-18 20:34:00 - DEBUG - Fetching details for PR #377
+2024-03-18 20:34:00 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:01 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/377/files HTTP/1.1" 200 None
+2024-03-18 20:34:01 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:01 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/377/comments HTTP/1.1" 200 2
+2024-03-18 20:34:01 - DEBUG - Fetching details for PR #376
+2024-03-18 20:34:01 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:02 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/376/files HTTP/1.1" 200 None
+2024-03-18 20:34:02 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:03 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/376/comments HTTP/1.1" 200 2
+2024-03-18 20:34:03 - DEBUG - Fetching details for PR #332
+2024-03-18 20:34:03 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:03 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/332/files HTTP/1.1" 200 None
+2024-03-18 20:34:03 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:04 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/332/comments HTTP/1.1" 200 2
+2024-03-18 20:34:04 - DEBUG - Fetching details for PR #330
+2024-03-18 20:34:04 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:04 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/330/files HTTP/1.1" 200 None
+2024-03-18 20:34:04 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:05 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/330/comments HTTP/1.1" 200 2
+2024-03-18 20:34:05 - DEBUG - Fetching details for PR #310
+2024-03-18 20:34:05 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:05 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/310/files HTTP/1.1" 200 None
+2024-03-18 20:34:05 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:06 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/310/comments HTTP/1.1" 200 2
+2024-03-18 20:34:06 - DEBUG - Fetching details for PR #301
+2024-03-18 20:34:06 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:06 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/301/files HTTP/1.1" 200 None
+2024-03-18 20:34:06 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:07 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/301/comments HTTP/1.1" 200 2
+2024-03-18 20:34:07 - DEBUG - Fetching details for PR #292
+2024-03-18 20:34:07 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:08 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/292/files HTTP/1.1" 200 None
+2024-03-18 20:34:08 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:09 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/292/comments HTTP/1.1" 200 2
+2024-03-18 20:34:09 - DEBUG - Fetching details for PR #288
+2024-03-18 20:34:09 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:10 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/288/files HTTP/1.1" 200 None
+2024-03-18 20:34:10 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:11 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/288/comments HTTP/1.1" 200 2
+2024-03-18 20:34:11 - DEBUG - Fetching details for PR #266
+2024-03-18 20:34:11 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:12 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/266/files HTTP/1.1" 200 None
+2024-03-18 20:34:12 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:13 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/266/comments HTTP/1.1" 200 2
+2024-03-18 20:34:13 - DEBUG - Fetching details for PR #256
+2024-03-18 20:34:13 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:14 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/256/files HTTP/1.1" 200 None
+2024-03-18 20:34:14 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:15 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/256/comments HTTP/1.1" 200 2
+2024-03-18 20:34:15 - DEBUG - Fetching details for PR #250
+2024-03-18 20:34:15 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:15 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/250/files HTTP/1.1" 200 None
+2024-03-18 20:34:15 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:16 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/250/comments HTTP/1.1" 200 2
+2024-03-18 20:34:16 - DEBUG - Fetching details for PR #246
+2024-03-18 20:34:16 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:17 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/246/files HTTP/1.1" 200 None
+2024-03-18 20:34:17 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:18 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/246/comments HTTP/1.1" 200 2
+2024-03-18 20:34:18 - DEBUG - Fetching details for PR #240
+2024-03-18 20:34:18 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:18 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/240/files HTTP/1.1" 200 None
+2024-03-18 20:34:18 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:19 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/240/comments HTTP/1.1" 200 None
+2024-03-18 20:34:19 - DEBUG - Fetching details for PR #234
+2024-03-18 20:34:19 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:20 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/234/files HTTP/1.1" 200 2
+2024-03-18 20:34:20 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:21 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/234/comments HTTP/1.1" 200 2
+2024-03-18 20:34:21 - DEBUG - Fetching details for PR #214
+2024-03-18 20:34:21 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:22 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/214/files HTTP/1.1" 200 None
+2024-03-18 20:34:22 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:22 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/214/comments HTTP/1.1" 200 2
+2024-03-18 20:34:22 - DEBUG - Fetching details for PR #212
+2024-03-18 20:34:22 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:23 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/212/files HTTP/1.1" 200 None
+2024-03-18 20:34:23 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:23 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/212/comments HTTP/1.1" 200 2
+2024-03-18 20:34:23 - DEBUG - Fetching details for PR #206
+2024-03-18 20:34:23 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:24 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/206/files HTTP/1.1" 200 None
+2024-03-18 20:34:24 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:24 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/206/comments HTTP/1.1" 200 2
+2024-03-18 20:34:24 - DEBUG - Fetching details for PR #190
+2024-03-18 20:34:24 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:25 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/190/files HTTP/1.1" 200 None
+2024-03-18 20:34:25 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:25 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/190/comments HTTP/1.1" 200 2
+2024-03-18 20:34:25 - DEBUG - Fetching details for PR #169
+2024-03-18 20:34:25 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:26 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/169/files HTTP/1.1" 200 None
+2024-03-18 20:34:26 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:27 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/169/comments HTTP/1.1" 200 2
+2024-03-18 20:34:27 - DEBUG - Fetching details for PR #165
+2024-03-18 20:34:27 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:27 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/165/files HTTP/1.1" 200 None
+2024-03-18 20:34:27 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:28 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/165/comments HTTP/1.1" 200 2
+2024-03-18 20:34:28 - DEBUG - Fetching details for PR #155
+2024-03-18 20:34:28 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:28 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/155/files HTTP/1.1" 200 None
+2024-03-18 20:34:28 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:29 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/155/comments HTTP/1.1" 200 2
+2024-03-18 20:34:29 - DEBUG - Fetching details for PR #154
+2024-03-18 20:34:29 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:29 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/154/files HTTP/1.1" 200 None
+2024-03-18 20:34:29 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:29 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/154/comments HTTP/1.1" 200 2
+2024-03-18 20:34:29 - DEBUG - Fetching details for PR #153
+2024-03-18 20:34:29 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:30 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/153/files HTTP/1.1" 200 None
+2024-03-18 20:34:30 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:30 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/153/comments HTTP/1.1" 200 2
+2024-03-18 20:34:30 - DEBUG - Fetching details for PR #152
+2024-03-18 20:34:30 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:31 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/152/files HTTP/1.1" 200 None
+2024-03-18 20:34:31 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:31 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/152/comments HTTP/1.1" 200 2
+2024-03-18 20:34:31 - DEBUG - Fetching details for PR #151
+2024-03-18 20:34:31 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:32 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/151/files HTTP/1.1" 200 None
+2024-03-18 20:34:32 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:32 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/151/comments HTTP/1.1" 200 2
+2024-03-18 20:34:32 - DEBUG - Fetching details for PR #150
+2024-03-18 20:34:32 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:33 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/150/files HTTP/1.1" 200 None
+2024-03-18 20:34:33 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:33 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/150/comments HTTP/1.1" 200 2
+2024-03-18 20:34:33 - DEBUG - Fetching details for PR #149
+2024-03-18 20:34:33 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:34 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/149/files HTTP/1.1" 200 None
+2024-03-18 20:34:34 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:34 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/149/comments HTTP/1.1" 200 2
+2024-03-18 20:34:34 - DEBUG - Fetching details for PR #148
+2024-03-18 20:34:34 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:35 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/148/files HTTP/1.1" 200 None
+2024-03-18 20:34:35 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:35 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/148/comments HTTP/1.1" 200 2
+2024-03-18 20:34:35 - DEBUG - Fetching details for PR #147
+2024-03-18 20:34:35 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:36 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/147/files HTTP/1.1" 200 None
+2024-03-18 20:34:36 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:36 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/147/comments HTTP/1.1" 200 2
+2024-03-18 20:34:36 - DEBUG - Fetching details for PR #145
+2024-03-18 20:34:36 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:37 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/145/files HTTP/1.1" 200 None
+2024-03-18 20:34:37 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:37 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/145/comments HTTP/1.1" 200 2
+2024-03-18 20:34:37 - DEBUG - Fetching details for PR #144
+2024-03-18 20:34:37 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:38 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/144/files HTTP/1.1" 200 None
+2024-03-18 20:34:38 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:38 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/144/comments HTTP/1.1" 200 2
+2024-03-18 20:34:38 - DEBUG - Fetching details for PR #141
+2024-03-18 20:34:38 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:39 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/141/files HTTP/1.1" 200 None
+2024-03-18 20:34:39 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:39 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/141/comments HTTP/1.1" 200 2
+2024-03-18 20:34:39 - DEBUG - Fetching details for PR #135
+2024-03-18 20:34:39 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:40 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/135/files HTTP/1.1" 200 None
+2024-03-18 20:34:40 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:40 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/135/comments HTTP/1.1" 200 None
+2024-03-18 20:34:40 - DEBUG - Fetching details for PR #132
+2024-03-18 20:34:40 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:41 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/132/files HTTP/1.1" 200 None
+2024-03-18 20:34:41 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:41 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/132/comments HTTP/1.1" 200 2
+2024-03-18 20:34:41 - DEBUG - Fetching details for PR #130
+2024-03-18 20:34:41 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:42 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/130/files HTTP/1.1" 200 None
+2024-03-18 20:34:42 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:42 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/130/comments HTTP/1.1" 200 2
+2024-03-18 20:34:42 - DEBUG - Fetching details for PR #128
+2024-03-18 20:34:42 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:43 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/128/files HTTP/1.1" 200 None
+2024-03-18 20:34:43 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:43 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/128/comments HTTP/1.1" 200 2
+2024-03-18 20:34:43 - DEBUG - Fetching details for PR #127
+2024-03-18 20:34:43 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:44 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/127/files HTTP/1.1" 200 None
+2024-03-18 20:34:44 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:44 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/127/comments HTTP/1.1" 200 2
+2024-03-18 20:34:44 - DEBUG - Fetching details for PR #121
+2024-03-18 20:34:44 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:45 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/121/files HTTP/1.1" 200 None
+2024-03-18 20:34:45 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:45 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/121/comments HTTP/1.1" 200 2
+2024-03-18 20:34:45 - DEBUG - Fetching details for PR #119
+2024-03-18 20:34:45 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:46 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/119/files HTTP/1.1" 200 None
+2024-03-18 20:34:46 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:46 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/119/comments HTTP/1.1" 200 2
+2024-03-18 20:34:46 - DEBUG - Fetching details for PR #118
+2024-03-18 20:34:46 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:47 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/118/files HTTP/1.1" 200 2
+2024-03-18 20:34:47 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:47 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/118/comments HTTP/1.1" 200 2
+2024-03-18 20:34:47 - DEBUG - Fetching details for PR #117
+2024-03-18 20:34:47 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:48 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/117/files HTTP/1.1" 200 None
+2024-03-18 20:34:48 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:48 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/117/comments HTTP/1.1" 200 2
+2024-03-18 20:34:48 - DEBUG - Fetching details for PR #116
+2024-03-18 20:34:48 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:49 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/116/files HTTP/1.1" 200 None
+2024-03-18 20:34:49 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:49 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/116/comments HTTP/1.1" 200 2
+2024-03-18 20:34:49 - DEBUG - Fetching details for PR #115
+2024-03-18 20:34:49 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:50 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/115/files HTTP/1.1" 200 None
+2024-03-18 20:34:50 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:50 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/115/comments HTTP/1.1" 200 2
+2024-03-18 20:34:50 - DEBUG - Fetching details for PR #101
+2024-03-18 20:34:50 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:51 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/101/files HTTP/1.1" 200 None
+2024-03-18 20:34:51 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:51 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/101/comments HTTP/1.1" 200 2
+2024-03-18 20:34:51 - DEBUG - Fetching details for PR #97
+2024-03-18 20:34:51 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:52 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/97/files HTTP/1.1" 200 None
+2024-03-18 20:34:52 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:52 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/97/comments HTTP/1.1" 200 2
+2024-03-18 20:34:52 - DEBUG - Fetching details for PR #92
+2024-03-18 20:34:52 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:53 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/92/files HTTP/1.1" 200 None
+2024-03-18 20:34:53 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:53 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/92/comments HTTP/1.1" 200 2
+2024-03-18 20:34:53 - DEBUG - Fetching details for PR #91
+2024-03-18 20:34:53 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:54 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/91/files HTTP/1.1" 200 None
+2024-03-18 20:34:54 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:54 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/91/comments HTTP/1.1" 200 2
+2024-03-18 20:34:54 - DEBUG - Fetching details for PR #86
+2024-03-18 20:34:54 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:54 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/86/files HTTP/1.1" 200 None
+2024-03-18 20:34:55 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:55 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/86/comments HTTP/1.1" 200 2
+2024-03-18 20:34:55 - DEBUG - Fetching details for PR #84
+2024-03-18 20:34:55 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:55 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/84/files HTTP/1.1" 200 None
+2024-03-18 20:34:55 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:56 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/84/comments HTTP/1.1" 200 2
+2024-03-18 20:34:56 - DEBUG - Fetching details for PR #81
+2024-03-18 20:34:56 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:56 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/81/files HTTP/1.1" 200 None
+2024-03-18 20:34:56 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:57 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/81/comments HTTP/1.1" 200 2
+2024-03-18 20:34:57 - DEBUG - Fetching details for PR #79
+2024-03-18 20:34:57 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:58 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/79/files HTTP/1.1" 200 None
+2024-03-18 20:34:58 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:58 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/79/comments HTTP/1.1" 200 2
+2024-03-18 20:34:58 - DEBUG - Fetching details for PR #78
+2024-03-18 20:34:58 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:58 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/78/files HTTP/1.1" 200 None
+2024-03-18 20:34:58 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:59 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/78/comments HTTP/1.1" 200 2
+2024-03-18 20:34:59 - DEBUG - Fetching details for PR #77
+2024-03-18 20:34:59 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:34:59 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/77/files HTTP/1.1" 200 None
+2024-03-18 20:34:59 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:00 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/77/comments HTTP/1.1" 200 2
+2024-03-18 20:35:00 - DEBUG - Fetching details for PR #73
+2024-03-18 20:35:00 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:00 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/73/files HTTP/1.1" 200 None
+2024-03-18 20:35:00 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:01 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/73/comments HTTP/1.1" 200 2
+2024-03-18 20:35:01 - DEBUG - Fetching details for PR #72
+2024-03-18 20:35:01 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:01 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/72/files HTTP/1.1" 200 None
+2024-03-18 20:35:01 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:02 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/72/comments HTTP/1.1" 200 2
+2024-03-18 20:35:02 - DEBUG - Fetching details for PR #71
+2024-03-18 20:35:02 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:03 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/71/files HTTP/1.1" 200 None
+2024-03-18 20:35:03 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:03 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/71/comments HTTP/1.1" 200 2
+2024-03-18 20:35:03 - DEBUG - Fetching details for PR #70
+2024-03-18 20:35:03 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:04 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/70/files HTTP/1.1" 200 None
+2024-03-18 20:35:04 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:04 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/70/comments HTTP/1.1" 200 2
+2024-03-18 20:35:04 - DEBUG - Fetching details for PR #69
+2024-03-18 20:35:04 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:05 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/69/files HTTP/1.1" 200 None
+2024-03-18 20:35:05 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:05 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/69/comments HTTP/1.1" 200 2
+2024-03-18 20:35:05 - DEBUG - Fetching details for PR #67
+2024-03-18 20:35:05 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:06 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/67/files HTTP/1.1" 200 None
+2024-03-18 20:35:06 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:06 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/67/comments HTTP/1.1" 200 2
+2024-03-18 20:35:06 - DEBUG - Fetching details for PR #66
+2024-03-18 20:35:06 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:07 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/66/files HTTP/1.1" 200 None
+2024-03-18 20:35:07 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:07 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/66/comments HTTP/1.1" 200 2
+2024-03-18 20:35:07 - DEBUG - Fetching details for PR #65
+2024-03-18 20:35:07 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:08 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/65/files HTTP/1.1" 200 None
+2024-03-18 20:35:08 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:08 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/65/comments HTTP/1.1" 200 2
+2024-03-18 20:35:08 - DEBUG - Fetching details for PR #63
+2024-03-18 20:35:08 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:09 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/63/files HTTP/1.1" 200 None
+2024-03-18 20:35:09 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:09 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/63/comments HTTP/1.1" 200 2
+2024-03-18 20:35:09 - DEBUG - Fetching details for PR #62
+2024-03-18 20:35:09 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:10 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/62/files HTTP/1.1" 200 None
+2024-03-18 20:35:10 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:10 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/62/comments HTTP/1.1" 200 2
+2024-03-18 20:35:10 - DEBUG - Fetching details for PR #53
+2024-03-18 20:35:10 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:11 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/53/files HTTP/1.1" 200 None
+2024-03-18 20:35:11 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:12 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/53/comments HTTP/1.1" 200 2
+2024-03-18 20:35:12 - DEBUG - Fetching details for PR #46
+2024-03-18 20:35:12 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:12 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/46/files HTTP/1.1" 200 None
+2024-03-18 20:35:12 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:13 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/46/comments HTTP/1.1" 200 2
+2024-03-18 20:35:13 - DEBUG - Fetching details for PR #44
+2024-03-18 20:35:13 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:13 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/44/files HTTP/1.1" 200 None
+2024-03-18 20:35:13 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:15 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/44/comments HTTP/1.1" 200 2
+2024-03-18 20:35:15 - DEBUG - Fetching details for PR #40
+2024-03-18 20:35:15 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:15 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/40/files HTTP/1.1" 200 None
+2024-03-18 20:35:15 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:15 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/40/comments HTTP/1.1" 200 2
+2024-03-18 20:35:15 - DEBUG - Fetching details for PR #38
+2024-03-18 20:35:15 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:16 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/38/files HTTP/1.1" 200 None
+2024-03-18 20:35:16 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:16 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/38/comments HTTP/1.1" 200 2
+2024-03-18 20:35:16 - DEBUG - Fetching details for PR #32
+2024-03-18 20:35:16 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:17 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/32/files HTTP/1.1" 200 None
+2024-03-18 20:35:17 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:17 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/32/comments HTTP/1.1" 200 2
+2024-03-18 20:35:17 - DEBUG - Fetching details for PR #29
+2024-03-18 20:35:17 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:18 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/29/files HTTP/1.1" 200 None
+2024-03-18 20:35:18 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:18 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/29/comments HTTP/1.1" 200 2
+2024-03-18 20:35:18 - DEBUG - Fetching details for PR #27
+2024-03-18 20:35:18 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:19 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/27/files HTTP/1.1" 200 None
+2024-03-18 20:35:19 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:19 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/27/comments HTTP/1.1" 200 2
+2024-03-18 20:35:19 - DEBUG - Fetching details for PR #26
+2024-03-18 20:35:19 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:20 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/26/files HTTP/1.1" 200 None
+2024-03-18 20:35:20 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:20 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/26/comments HTTP/1.1" 200 2
+2024-03-18 20:35:20 - DEBUG - Fetching details for PR #23
+2024-03-18 20:35:20 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:21 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/23/files HTTP/1.1" 200 None
+2024-03-18 20:35:21 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:21 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/23/comments HTTP/1.1" 200 2
+2024-03-18 20:35:21 - DEBUG - Fetching details for PR #22
+2024-03-18 20:35:21 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:22 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/22/files HTTP/1.1" 200 None
+2024-03-18 20:35:22 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:22 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/22/comments HTTP/1.1" 200 2
+2024-03-18 20:35:22 - DEBUG - Fetching details for PR #21
+2024-03-18 20:35:22 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:23 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/21/files HTTP/1.1" 200 None
+2024-03-18 20:35:23 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:23 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/21/comments HTTP/1.1" 200 2
+2024-03-18 20:35:23 - DEBUG - Fetching details for PR #19
+2024-03-18 20:35:23 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:24 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/19/files HTTP/1.1" 200 None
+2024-03-18 20:35:24 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:24 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/19/comments HTTP/1.1" 200 2
+2024-03-18 20:35:24 - DEBUG - Fetching details for PR #18
+2024-03-18 20:35:24 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:25 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/18/files HTTP/1.1" 200 None
+2024-03-18 20:35:25 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:25 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/18/comments HTTP/1.1" 200 2
+2024-03-18 20:35:25 - DEBUG - Fetching details for PR #15
+2024-03-18 20:35:25 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:25 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/15/files HTTP/1.1" 200 None
+2024-03-18 20:35:25 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:26 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/15/comments HTTP/1.1" 200 2
+2024-03-18 20:35:26 - DEBUG - Fetching details for PR #13
+2024-03-18 20:35:26 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:26 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/13/files HTTP/1.1" 200 None
+2024-03-18 20:35:26 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:27 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/13/comments HTTP/1.1" 200 2
+2024-03-18 20:35:27 - DEBUG - Fetching details for PR #12
+2024-03-18 20:35:27 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:27 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/12/files HTTP/1.1" 200 None
+2024-03-18 20:35:27 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:28 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/12/comments HTTP/1.1" 200 2
+2024-03-18 20:35:28 - DEBUG - Fetching details for PR #11
+2024-03-18 20:35:28 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:28 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/11/files HTTP/1.1" 200 None
+2024-03-18 20:35:28 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:29 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/11/comments HTTP/1.1" 200 2
+2024-03-18 20:35:29 - DEBUG - Fetching details for PR #10
+2024-03-18 20:35:29 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:29 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/10/files HTTP/1.1" 200 None
+2024-03-18 20:35:29 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:30 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/10/comments HTTP/1.1" 200 2
+2024-03-18 20:35:30 - DEBUG - Fetching details for PR #9
+2024-03-18 20:35:30 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:30 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/9/files HTTP/1.1" 200 None
+2024-03-18 20:35:30 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:30 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/9/comments HTTP/1.1" 200 2
+2024-03-18 20:35:30 - DEBUG - Fetching details for PR #8
+2024-03-18 20:35:30 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:31 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/8/files HTTP/1.1" 200 None
+2024-03-18 20:35:31 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:31 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/8/comments HTTP/1.1" 200 2
+2024-03-18 20:35:31 - DEBUG - Fetching details for PR #7
+2024-03-18 20:35:31 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:32 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/7/files HTTP/1.1" 200 2
+2024-03-18 20:35:32 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:32 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/7/comments HTTP/1.1" 200 2
+2024-03-18 20:35:32 - DEBUG - Fetching details for PR #6
+2024-03-18 20:35:32 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:33 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/6/files HTTP/1.1" 200 None
+2024-03-18 20:35:33 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:33 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/6/comments HTTP/1.1" 200 2
+2024-03-18 20:35:33 - DEBUG - Fetching details for PR #5
+2024-03-18 20:35:33 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:34 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/5/files HTTP/1.1" 200 None
+2024-03-18 20:35:34 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:34 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/5/comments HTTP/1.1" 200 2
+2024-03-18 20:35:34 - DEBUG - Fetching details for PR #3
+2024-03-18 20:35:34 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:35 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/3/files HTTP/1.1" 200 None
+2024-03-18 20:35:35 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:35:35 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/3/comments HTTP/1.1" 200 2
+2024-03-18 20:35:35 - INFO - Application shutdown
+2024-03-18 20:38:22 - DEBUG - matplotlib data path: /home/lettuce/.local/lib/python3.10/site-packages/matplotlib/mpl-data
+2024-03-18 20:38:22 - DEBUG - CONFIGDIR=/home/lettuce/.config/matplotlib
+2024-03-18 20:38:22 - DEBUG - interactive is False
+2024-03-18 20:38:22 - DEBUG - platform is linux
+2024-03-18 20:38:22 - DEBUG - CACHEDIR=/home/lettuce/.cache/matplotlib
+2024-03-18 20:38:22 - DEBUG - Using fontManager instance from /home/lettuce/.cache/matplotlib/fontlist-v330.json
+2024-03-18 20:44:13 - INFO - Application start
+2024-03-18 20:44:13 - INFO - Fetching PRs page 1
+2024-03-18 20:44:13 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:14 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls?state=closed&per_page=100&page=1 HTTP/1.1" 200 None
+2024-03-18 20:44:15 - DEBUG - Fetched 100 PRs
+2024-03-18 20:44:15 - INFO - Fetching PRs page 2
+2024-03-18 20:44:15 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:15 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls?state=closed&per_page=100&page=2 HTTP/1.1" 200 None
+2024-03-18 20:44:15 - DEBUG - Fetched 40 PRs
+2024-03-18 20:44:15 - INFO - Fetching PRs page 3
+2024-03-18 20:44:15 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:16 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls?state=closed&per_page=100&page=3 HTTP/1.1" 200 2
+2024-03-18 20:44:16 - INFO - No more PRs to fetch
+2024-03-18 20:44:16 - DEBUG - Fetching details for PR #1226
+2024-03-18 20:44:16 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:16 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1226/files HTTP/1.1" 200 None
+2024-03-18 20:44:16 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:17 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1226/comments HTTP/1.1" 200 2
+2024-03-18 20:44:17 - DEBUG - Fetching details for PR #1223
+2024-03-18 20:44:17 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:17 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1223/files HTTP/1.1" 200 None
+2024-03-18 20:44:17 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:17 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1223/comments HTTP/1.1" 200 2
+2024-03-18 20:44:17 - DEBUG - Fetching details for PR #1200
+2024-03-18 20:44:17 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:18 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1200/files HTTP/1.1" 200 None
+2024-03-18 20:44:18 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:18 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1200/comments HTTP/1.1" 200 2
+2024-03-18 20:44:18 - DEBUG - Fetching details for PR #1172
+2024-03-18 20:44:18 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:19 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1172/files HTTP/1.1" 200 None
+2024-03-18 20:44:19 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:19 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1172/comments HTTP/1.1" 200 2
+2024-03-18 20:44:19 - DEBUG - Fetching details for PR #1101
+2024-03-18 20:44:19 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:20 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1101/files HTTP/1.1" 200 None
+2024-03-18 20:44:20 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:20 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1101/comments HTTP/1.1" 200 2
+2024-03-18 20:44:20 - DEBUG - Fetching details for PR #1083
+2024-03-18 20:44:20 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:20 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1083/files HTTP/1.1" 200 None
+2024-03-18 20:44:20 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:21 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1083/comments HTTP/1.1" 200 2
+2024-03-18 20:44:21 - DEBUG - Fetching details for PR #1074
+2024-03-18 20:44:21 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:21 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1074/files HTTP/1.1" 200 None
+2024-03-18 20:44:21 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:22 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1074/comments HTTP/1.1" 200 2
+2024-03-18 20:44:22 - DEBUG - Fetching details for PR #1017
+2024-03-18 20:44:22 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:22 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1017/files HTTP/1.1" 200 None
+2024-03-18 20:44:22 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:22 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/1017/comments HTTP/1.1" 200 2
+2024-03-18 20:44:22 - DEBUG - Fetching details for PR #988
+2024-03-18 20:44:22 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:23 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/988/files HTTP/1.1" 200 None
+2024-03-18 20:44:23 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:23 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/988/comments HTTP/1.1" 200 2
+2024-03-18 20:44:23 - DEBUG - Fetching details for PR #985
+2024-03-18 20:44:23 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:24 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/985/files HTTP/1.1" 200 None
+2024-03-18 20:44:24 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:24 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/985/comments HTTP/1.1" 200 2
+2024-03-18 20:44:24 - DEBUG - Fetching details for PR #984
+2024-03-18 20:44:24 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:25 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/984/files HTTP/1.1" 200 None
+2024-03-18 20:44:25 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:25 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/984/comments HTTP/1.1" 200 2
+2024-03-18 20:44:25 - DEBUG - Fetching details for PR #979
+2024-03-18 20:44:25 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:25 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/979/files HTTP/1.1" 200 None
+2024-03-18 20:44:25 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:26 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/979/comments HTTP/1.1" 200 2
+2024-03-18 20:44:26 - DEBUG - Fetching details for PR #918
+2024-03-18 20:44:26 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:26 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/918/files HTTP/1.1" 200 None
+2024-03-18 20:44:26 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:27 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/918/comments HTTP/1.1" 200 2
+2024-03-18 20:44:27 - DEBUG - Fetching details for PR #914
+2024-03-18 20:44:27 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:27 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/914/files HTTP/1.1" 200 None
+2024-03-18 20:44:27 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:27 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/914/comments HTTP/1.1" 200 2
+2024-03-18 20:44:27 - DEBUG - Fetching details for PR #912
+2024-03-18 20:44:27 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:28 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/912/files HTTP/1.1" 200 None
+2024-03-18 20:44:28 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:29 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/912/comments HTTP/1.1" 200 2
+2024-03-18 20:44:29 - DEBUG - Fetching details for PR #862
+2024-03-18 20:44:29 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:29 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/862/files HTTP/1.1" 200 None
+2024-03-18 20:44:29 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:30 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/862/comments HTTP/1.1" 200 2
+2024-03-18 20:44:30 - DEBUG - Fetching details for PR #837
+2024-03-18 20:44:30 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:30 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/837/files HTTP/1.1" 200 None
+2024-03-18 20:44:30 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:30 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/837/comments HTTP/1.1" 200 2
+2024-03-18 20:44:30 - DEBUG - Fetching details for PR #812
+2024-03-18 20:44:30 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:31 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/812/files HTTP/1.1" 200 None
+2024-03-18 20:44:31 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:31 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/812/comments HTTP/1.1" 200 2
+2024-03-18 20:44:31 - DEBUG - Fetching details for PR #723
+2024-03-18 20:44:31 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:32 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/723/files HTTP/1.1" 200 None
+2024-03-18 20:44:32 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:32 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/723/comments HTTP/1.1" 200 2
+2024-03-18 20:44:32 - DEBUG - Fetching details for PR #697
+2024-03-18 20:44:32 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:33 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/697/files HTTP/1.1" 200 None
+2024-03-18 20:44:33 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:33 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/697/comments HTTP/1.1" 200 2
+2024-03-18 20:44:33 - DEBUG - Fetching details for PR #666
+2024-03-18 20:44:33 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:34 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/666/files HTTP/1.1" 200 None
+2024-03-18 20:44:34 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:34 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/666/comments HTTP/1.1" 200 2
+2024-03-18 20:44:34 - DEBUG - Fetching details for PR #660
+2024-03-18 20:44:34 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:35 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/660/files HTTP/1.1" 200 None
+2024-03-18 20:44:35 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:35 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/660/comments HTTP/1.1" 200 2
+2024-03-18 20:44:35 - DEBUG - Fetching details for PR #612
+2024-03-18 20:44:35 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:35 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/612/files HTTP/1.1" 200 None
+2024-03-18 20:44:35 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:36 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/612/comments HTTP/1.1" 200 2
+2024-03-18 20:44:36 - DEBUG - Fetching details for PR #596
+2024-03-18 20:44:36 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:36 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/596/files HTTP/1.1" 200 None
+2024-03-18 20:44:37 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:37 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/596/comments HTTP/1.1" 200 2
+2024-03-18 20:44:37 - DEBUG - Fetching details for PR #572
+2024-03-18 20:44:37 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:37 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/572/files HTTP/1.1" 200 None
+2024-03-18 20:44:37 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:38 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/572/comments HTTP/1.1" 200 2
+2024-03-18 20:44:38 - DEBUG - Fetching details for PR #561
+2024-03-18 20:44:38 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:39 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/561/files HTTP/1.1" 200 None
+2024-03-18 20:44:39 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:39 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/561/comments HTTP/1.1" 200 2
+2024-03-18 20:44:39 - DEBUG - Fetching details for PR #549
+2024-03-18 20:44:39 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:40 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/549/files HTTP/1.1" 200 None
+2024-03-18 20:44:40 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:40 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/549/comments HTTP/1.1" 200 2
+2024-03-18 20:44:40 - DEBUG - Fetching details for PR #548
+2024-03-18 20:44:40 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:40 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/548/files HTTP/1.1" 200 None
+2024-03-18 20:44:40 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:41 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/548/comments HTTP/1.1" 200 2
+2024-03-18 20:44:41 - DEBUG - Fetching details for PR #547
+2024-03-18 20:44:41 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:41 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/547/files HTTP/1.1" 200 None
+2024-03-18 20:44:41 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:42 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/547/comments HTTP/1.1" 200 2
+2024-03-18 20:44:42 - DEBUG - Fetching details for PR #507
+2024-03-18 20:44:42 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:42 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/507/files HTTP/1.1" 200 None
+2024-03-18 20:44:42 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:42 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/507/comments HTTP/1.1" 200 2
+2024-03-18 20:44:42 - DEBUG - Fetching details for PR #506
+2024-03-18 20:44:42 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:43 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/506/files HTTP/1.1" 200 None
+2024-03-18 20:44:43 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:43 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/506/comments HTTP/1.1" 200 2
+2024-03-18 20:44:43 - DEBUG - Fetching details for PR #505
+2024-03-18 20:44:43 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:44 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/505/files HTTP/1.1" 200 None
+2024-03-18 20:44:44 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:44 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/505/comments HTTP/1.1" 200 2
+2024-03-18 20:44:44 - DEBUG - Fetching details for PR #504
+2024-03-18 20:44:44 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:44 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/504/files HTTP/1.1" 200 None
+2024-03-18 20:44:44 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:45 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/504/comments HTTP/1.1" 200 2
+2024-03-18 20:44:45 - DEBUG - Fetching details for PR #495
+2024-03-18 20:44:45 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:45 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/495/files HTTP/1.1" 200 None
+2024-03-18 20:44:45 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:46 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/495/comments HTTP/1.1" 200 2
+2024-03-18 20:44:46 - DEBUG - Fetching details for PR #491
+2024-03-18 20:44:46 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:46 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/491/files HTTP/1.1" 200 None
+2024-03-18 20:44:46 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:46 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/491/comments HTTP/1.1" 200 2
+2024-03-18 20:44:46 - DEBUG - Fetching details for PR #479
+2024-03-18 20:44:46 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:47 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/479/files HTTP/1.1" 200 None
+2024-03-18 20:44:47 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:47 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/479/comments HTTP/1.1" 200 2
+2024-03-18 20:44:47 - DEBUG - Fetching details for PR #478
+2024-03-18 20:44:47 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:48 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/478/files HTTP/1.1" 200 None
+2024-03-18 20:44:48 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:48 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/478/comments HTTP/1.1" 200 2
+2024-03-18 20:44:48 - DEBUG - Fetching details for PR #476
+2024-03-18 20:44:48 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:49 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/476/files HTTP/1.1" 200 None
+2024-03-18 20:44:49 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:49 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/476/comments HTTP/1.1" 200 2
+2024-03-18 20:44:49 - DEBUG - Fetching details for PR #475
+2024-03-18 20:44:49 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:49 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/475/files HTTP/1.1" 200 None
+2024-03-18 20:44:50 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:50 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/475/comments HTTP/1.1" 200 2
+2024-03-18 20:44:50 - DEBUG - Fetching details for PR #472
+2024-03-18 20:44:50 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:51 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/472/files HTTP/1.1" 200 None
+2024-03-18 20:44:51 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:51 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/472/comments HTTP/1.1" 200 2
+2024-03-18 20:44:51 - DEBUG - Fetching details for PR #464
+2024-03-18 20:44:51 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:51 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/464/files HTTP/1.1" 200 None
+2024-03-18 20:44:51 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:52 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/464/comments HTTP/1.1" 200 2
+2024-03-18 20:44:52 - DEBUG - Fetching details for PR #426
+2024-03-18 20:44:52 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:52 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/426/files HTTP/1.1" 200 None
+2024-03-18 20:44:52 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:53 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/426/comments HTTP/1.1" 200 2
+2024-03-18 20:44:53 - DEBUG - Fetching details for PR #425
+2024-03-18 20:44:53 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:53 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/425/files HTTP/1.1" 200 None
+2024-03-18 20:44:53 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:54 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/425/comments HTTP/1.1" 200 2
+2024-03-18 20:44:54 - DEBUG - Fetching details for PR #424
+2024-03-18 20:44:54 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:54 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/424/files HTTP/1.1" 200 None
+2024-03-18 20:44:54 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:55 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/424/comments HTTP/1.1" 200 2
+2024-03-18 20:44:55 - DEBUG - Fetching details for PR #421
+2024-03-18 20:44:55 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:55 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/421/files HTTP/1.1" 200 None
+2024-03-18 20:44:55 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:55 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/421/comments HTTP/1.1" 200 2
+2024-03-18 20:44:55 - DEBUG - Fetching details for PR #420
+2024-03-18 20:44:55 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:56 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/420/files HTTP/1.1" 200 None
+2024-03-18 20:44:56 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:56 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/420/comments HTTP/1.1" 200 2
+2024-03-18 20:44:56 - DEBUG - Fetching details for PR #417
+2024-03-18 20:44:56 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:57 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/417/files HTTP/1.1" 200 None
+2024-03-18 20:44:57 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:57 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/417/comments HTTP/1.1" 200 2
+2024-03-18 20:44:57 - DEBUG - Fetching details for PR #415
+2024-03-18 20:44:57 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:58 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/415/files HTTP/1.1" 200 None
+2024-03-18 20:44:58 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:58 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/415/comments HTTP/1.1" 200 2
+2024-03-18 20:44:58 - DEBUG - Fetching details for PR #408
+2024-03-18 20:44:58 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:59 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/408/files HTTP/1.1" 200 None
+2024-03-18 20:44:59 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:59 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/408/comments HTTP/1.1" 200 2
+2024-03-18 20:44:59 - DEBUG - Fetching details for PR #407
+2024-03-18 20:44:59 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:44:59 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/407/files HTTP/1.1" 200 None
+2024-03-18 20:44:59 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:00 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/407/comments HTTP/1.1" 200 2
+2024-03-18 20:45:00 - DEBUG - Fetching details for PR #397
+2024-03-18 20:45:00 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:00 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/397/files HTTP/1.1" 200 None
+2024-03-18 20:45:00 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:01 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/397/comments HTTP/1.1" 200 2
+2024-03-18 20:45:01 - DEBUG - Fetching details for PR #389
+2024-03-18 20:45:01 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:01 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/389/files HTTP/1.1" 200 None
+2024-03-18 20:45:01 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:02 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/389/comments HTTP/1.1" 200 2
+2024-03-18 20:45:02 - DEBUG - Fetching details for PR #377
+2024-03-18 20:45:02 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:02 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/377/files HTTP/1.1" 200 None
+2024-03-18 20:45:02 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:03 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/377/comments HTTP/1.1" 200 2
+2024-03-18 20:45:03 - DEBUG - Fetching details for PR #376
+2024-03-18 20:45:03 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:03 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/376/files HTTP/1.1" 200 None
+2024-03-18 20:45:03 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:04 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/376/comments HTTP/1.1" 200 2
+2024-03-18 20:45:04 - DEBUG - Fetching details for PR #332
+2024-03-18 20:45:04 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:04 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/332/files HTTP/1.1" 200 None
+2024-03-18 20:45:04 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:05 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/332/comments HTTP/1.1" 200 2
+2024-03-18 20:45:05 - DEBUG - Fetching details for PR #330
+2024-03-18 20:45:05 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:05 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/330/files HTTP/1.1" 200 None
+2024-03-18 20:45:05 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:05 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/330/comments HTTP/1.1" 200 2
+2024-03-18 20:45:05 - DEBUG - Fetching details for PR #310
+2024-03-18 20:45:05 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:06 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/310/files HTTP/1.1" 200 None
+2024-03-18 20:45:06 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:06 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/310/comments HTTP/1.1" 200 2
+2024-03-18 20:45:06 - DEBUG - Fetching details for PR #301
+2024-03-18 20:45:06 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:07 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/301/files HTTP/1.1" 200 None
+2024-03-18 20:45:07 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:07 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/301/comments HTTP/1.1" 200 2
+2024-03-18 20:45:07 - DEBUG - Fetching details for PR #292
+2024-03-18 20:45:07 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:08 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/292/files HTTP/1.1" 200 None
+2024-03-18 20:45:08 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:08 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/292/comments HTTP/1.1" 200 2
+2024-03-18 20:45:08 - DEBUG - Fetching details for PR #288
+2024-03-18 20:45:08 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:09 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/288/files HTTP/1.1" 200 None
+2024-03-18 20:45:09 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:09 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/288/comments HTTP/1.1" 200 2
+2024-03-18 20:45:09 - DEBUG - Fetching details for PR #266
+2024-03-18 20:45:09 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:10 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/266/files HTTP/1.1" 200 None
+2024-03-18 20:45:10 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:10 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/266/comments HTTP/1.1" 200 2
+2024-03-18 20:45:10 - DEBUG - Fetching details for PR #256
+2024-03-18 20:45:10 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:10 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/256/files HTTP/1.1" 200 None
+2024-03-18 20:45:10 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:11 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/256/comments HTTP/1.1" 200 2
+2024-03-18 20:45:11 - DEBUG - Fetching details for PR #250
+2024-03-18 20:45:11 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:11 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/250/files HTTP/1.1" 200 None
+2024-03-18 20:45:11 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:12 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/250/comments HTTP/1.1" 200 2
+2024-03-18 20:45:12 - DEBUG - Fetching details for PR #246
+2024-03-18 20:45:12 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:12 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/246/files HTTP/1.1" 200 None
+2024-03-18 20:45:12 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:13 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/246/comments HTTP/1.1" 200 2
+2024-03-18 20:45:13 - DEBUG - Fetching details for PR #240
+2024-03-18 20:45:13 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:13 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/240/files HTTP/1.1" 200 None
+2024-03-18 20:45:13 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:14 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/240/comments HTTP/1.1" 200 None
+2024-03-18 20:45:14 - DEBUG - Fetching details for PR #234
+2024-03-18 20:45:14 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:14 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/234/files HTTP/1.1" 200 2
+2024-03-18 20:45:14 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:15 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/234/comments HTTP/1.1" 200 2
+2024-03-18 20:45:15 - DEBUG - Fetching details for PR #214
+2024-03-18 20:45:15 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:15 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/214/files HTTP/1.1" 200 None
+2024-03-18 20:45:16 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:16 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/214/comments HTTP/1.1" 200 2
+2024-03-18 20:45:16 - DEBUG - Fetching details for PR #212
+2024-03-18 20:45:16 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:16 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/212/files HTTP/1.1" 200 None
+2024-03-18 20:45:16 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:17 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/212/comments HTTP/1.1" 200 2
+2024-03-18 20:45:17 - DEBUG - Fetching details for PR #206
+2024-03-18 20:45:17 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:17 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/206/files HTTP/1.1" 200 None
+2024-03-18 20:45:18 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:18 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/206/comments HTTP/1.1" 200 2
+2024-03-18 20:45:18 - DEBUG - Fetching details for PR #190
+2024-03-18 20:45:18 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:19 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/190/files HTTP/1.1" 200 None
+2024-03-18 20:45:19 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:19 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/190/comments HTTP/1.1" 200 2
+2024-03-18 20:45:19 - DEBUG - Fetching details for PR #169
+2024-03-18 20:45:19 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:20 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/169/files HTTP/1.1" 200 None
+2024-03-18 20:45:20 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:20 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/169/comments HTTP/1.1" 200 2
+2024-03-18 20:45:20 - DEBUG - Fetching details for PR #165
+2024-03-18 20:45:20 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:20 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/165/files HTTP/1.1" 200 None
+2024-03-18 20:45:20 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:21 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/165/comments HTTP/1.1" 200 2
+2024-03-18 20:45:21 - DEBUG - Fetching details for PR #155
+2024-03-18 20:45:21 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:21 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/155/files HTTP/1.1" 200 None
+2024-03-18 20:45:21 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:22 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/155/comments HTTP/1.1" 200 2
+2024-03-18 20:45:22 - DEBUG - Fetching details for PR #154
+2024-03-18 20:45:22 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:22 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/154/files HTTP/1.1" 200 None
+2024-03-18 20:45:22 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:23 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/154/comments HTTP/1.1" 200 2
+2024-03-18 20:45:23 - DEBUG - Fetching details for PR #153
+2024-03-18 20:45:23 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:23 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/153/files HTTP/1.1" 200 None
+2024-03-18 20:45:23 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:24 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/153/comments HTTP/1.1" 200 2
+2024-03-18 20:45:24 - DEBUG - Fetching details for PR #152
+2024-03-18 20:45:24 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:24 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/152/files HTTP/1.1" 200 None
+2024-03-18 20:45:24 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:24 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/152/comments HTTP/1.1" 200 2
+2024-03-18 20:45:24 - DEBUG - Fetching details for PR #151
+2024-03-18 20:45:24 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:25 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/151/files HTTP/1.1" 200 None
+2024-03-18 20:45:25 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:26 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/151/comments HTTP/1.1" 200 2
+2024-03-18 20:45:26 - DEBUG - Fetching details for PR #150
+2024-03-18 20:45:26 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:26 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/150/files HTTP/1.1" 200 None
+2024-03-18 20:45:26 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:27 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/150/comments HTTP/1.1" 200 2
+2024-03-18 20:45:27 - DEBUG - Fetching details for PR #149
+2024-03-18 20:45:27 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:27 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/149/files HTTP/1.1" 200 None
+2024-03-18 20:45:27 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:28 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/149/comments HTTP/1.1" 200 2
+2024-03-18 20:45:28 - DEBUG - Fetching details for PR #148
+2024-03-18 20:45:28 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:28 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/148/files HTTP/1.1" 200 None
+2024-03-18 20:45:28 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:29 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/148/comments HTTP/1.1" 200 2
+2024-03-18 20:45:29 - DEBUG - Fetching details for PR #147
+2024-03-18 20:45:29 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:29 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/147/files HTTP/1.1" 200 None
+2024-03-18 20:45:29 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:30 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/147/comments HTTP/1.1" 200 2
+2024-03-18 20:45:30 - DEBUG - Fetching details for PR #145
+2024-03-18 20:45:30 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:30 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/145/files HTTP/1.1" 200 None
+2024-03-18 20:45:30 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:31 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/145/comments HTTP/1.1" 200 2
+2024-03-18 20:45:31 - DEBUG - Fetching details for PR #144
+2024-03-18 20:45:31 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:31 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/144/files HTTP/1.1" 200 None
+2024-03-18 20:45:31 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:31 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/144/comments HTTP/1.1" 200 2
+2024-03-18 20:45:31 - DEBUG - Fetching details for PR #141
+2024-03-18 20:45:31 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:32 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/141/files HTTP/1.1" 200 None
+2024-03-18 20:45:32 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:32 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/141/comments HTTP/1.1" 200 2
+2024-03-18 20:45:32 - DEBUG - Fetching details for PR #135
+2024-03-18 20:45:32 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:33 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/135/files HTTP/1.1" 200 None
+2024-03-18 20:45:33 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:33 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/135/comments HTTP/1.1" 200 None
+2024-03-18 20:45:33 - DEBUG - Fetching details for PR #132
+2024-03-18 20:45:33 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:34 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/132/files HTTP/1.1" 200 None
+2024-03-18 20:45:34 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:34 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/132/comments HTTP/1.1" 200 2
+2024-03-18 20:45:34 - DEBUG - Fetching details for PR #130
+2024-03-18 20:45:34 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:35 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/130/files HTTP/1.1" 200 None
+2024-03-18 20:45:35 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:35 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/130/comments HTTP/1.1" 200 2
+2024-03-18 20:45:35 - DEBUG - Fetching details for PR #128
+2024-03-18 20:45:35 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:36 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/128/files HTTP/1.1" 200 None
+2024-03-18 20:45:36 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:36 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/128/comments HTTP/1.1" 200 2
+2024-03-18 20:45:36 - DEBUG - Fetching details for PR #127
+2024-03-18 20:45:36 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:36 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/127/files HTTP/1.1" 200 None
+2024-03-18 20:45:36 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:37 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/127/comments HTTP/1.1" 200 2
+2024-03-18 20:45:37 - DEBUG - Fetching details for PR #121
+2024-03-18 20:45:37 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:37 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/121/files HTTP/1.1" 200 None
+2024-03-18 20:45:37 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:38 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/121/comments HTTP/1.1" 200 2
+2024-03-18 20:45:38 - DEBUG - Fetching details for PR #119
+2024-03-18 20:45:38 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:38 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/119/files HTTP/1.1" 200 None
+2024-03-18 20:45:38 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:39 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/119/comments HTTP/1.1" 200 2
+2024-03-18 20:45:39 - DEBUG - Fetching details for PR #118
+2024-03-18 20:45:39 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:39 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/118/files HTTP/1.1" 200 2
+2024-03-18 20:45:39 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:39 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/118/comments HTTP/1.1" 200 2
+2024-03-18 20:45:39 - DEBUG - Fetching details for PR #117
+2024-03-18 20:45:39 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:40 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/117/files HTTP/1.1" 200 None
+2024-03-18 20:45:40 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:40 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/117/comments HTTP/1.1" 200 2
+2024-03-18 20:45:40 - DEBUG - Fetching details for PR #116
+2024-03-18 20:45:40 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:41 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/116/files HTTP/1.1" 200 None
+2024-03-18 20:45:41 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:41 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/116/comments HTTP/1.1" 200 2
+2024-03-18 20:45:41 - DEBUG - Fetching details for PR #115
+2024-03-18 20:45:41 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:42 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/115/files HTTP/1.1" 200 None
+2024-03-18 20:45:42 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:42 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/115/comments HTTP/1.1" 200 2
+2024-03-18 20:45:42 - DEBUG - Fetching details for PR #101
+2024-03-18 20:45:42 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:43 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/101/files HTTP/1.1" 200 None
+2024-03-18 20:45:43 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:43 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/101/comments HTTP/1.1" 200 2
+2024-03-18 20:45:43 - DEBUG - Fetching details for PR #97
+2024-03-18 20:45:43 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:44 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/97/files HTTP/1.1" 200 None
+2024-03-18 20:45:44 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:44 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/97/comments HTTP/1.1" 200 2
+2024-03-18 20:45:44 - DEBUG - Fetching details for PR #92
+2024-03-18 20:45:44 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:45 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/92/files HTTP/1.1" 200 None
+2024-03-18 20:45:45 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:45 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/92/comments HTTP/1.1" 200 2
+2024-03-18 20:45:45 - DEBUG - Fetching details for PR #91
+2024-03-18 20:45:45 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:47 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/91/files HTTP/1.1" 200 None
+2024-03-18 20:45:47 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:47 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/91/comments HTTP/1.1" 200 2
+2024-03-18 20:45:47 - DEBUG - Fetching details for PR #86
+2024-03-18 20:45:48 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:48 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/86/files HTTP/1.1" 200 None
+2024-03-18 20:45:48 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:49 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/86/comments HTTP/1.1" 200 2
+2024-03-18 20:45:49 - DEBUG - Fetching details for PR #84
+2024-03-18 20:45:49 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:50 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/84/files HTTP/1.1" 200 None
+2024-03-18 20:45:50 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:51 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/84/comments HTTP/1.1" 200 2
+2024-03-18 20:45:51 - DEBUG - Fetching details for PR #81
+2024-03-18 20:45:51 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:51 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/81/files HTTP/1.1" 200 None
+2024-03-18 20:45:51 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:52 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/81/comments HTTP/1.1" 200 2
+2024-03-18 20:45:52 - DEBUG - Fetching details for PR #79
+2024-03-18 20:45:52 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:52 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/79/files HTTP/1.1" 200 None
+2024-03-18 20:45:52 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:53 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/79/comments HTTP/1.1" 200 2
+2024-03-18 20:45:53 - DEBUG - Fetching details for PR #78
+2024-03-18 20:45:53 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:53 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/78/files HTTP/1.1" 200 None
+2024-03-18 20:45:53 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:54 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/78/comments HTTP/1.1" 200 2
+2024-03-18 20:45:54 - DEBUG - Fetching details for PR #77
+2024-03-18 20:45:54 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:55 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/77/files HTTP/1.1" 200 None
+2024-03-18 20:45:55 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:55 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/77/comments HTTP/1.1" 200 2
+2024-03-18 20:45:55 - DEBUG - Fetching details for PR #73
+2024-03-18 20:45:55 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:56 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/73/files HTTP/1.1" 200 None
+2024-03-18 20:45:56 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:57 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/73/comments HTTP/1.1" 200 2
+2024-03-18 20:45:57 - DEBUG - Fetching details for PR #72
+2024-03-18 20:45:57 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:57 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/72/files HTTP/1.1" 200 None
+2024-03-18 20:45:57 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:58 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/72/comments HTTP/1.1" 200 2
+2024-03-18 20:45:58 - DEBUG - Fetching details for PR #71
+2024-03-18 20:45:58 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:58 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/71/files HTTP/1.1" 200 None
+2024-03-18 20:45:58 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:58 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/71/comments HTTP/1.1" 200 2
+2024-03-18 20:45:58 - DEBUG - Fetching details for PR #70
+2024-03-18 20:45:58 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:59 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/70/files HTTP/1.1" 200 None
+2024-03-18 20:45:59 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:45:59 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/70/comments HTTP/1.1" 200 2
+2024-03-18 20:45:59 - DEBUG - Fetching details for PR #69
+2024-03-18 20:45:59 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:00 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/69/files HTTP/1.1" 200 None
+2024-03-18 20:46:00 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:00 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/69/comments HTTP/1.1" 200 2
+2024-03-18 20:46:00 - DEBUG - Fetching details for PR #67
+2024-03-18 20:46:00 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:01 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/67/files HTTP/1.1" 200 None
+2024-03-18 20:46:01 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:01 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/67/comments HTTP/1.1" 200 2
+2024-03-18 20:46:01 - DEBUG - Fetching details for PR #66
+2024-03-18 20:46:01 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:02 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/66/files HTTP/1.1" 200 None
+2024-03-18 20:46:02 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:02 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/66/comments HTTP/1.1" 200 2
+2024-03-18 20:46:02 - DEBUG - Fetching details for PR #65
+2024-03-18 20:46:02 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:02 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/65/files HTTP/1.1" 200 None
+2024-03-18 20:46:02 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:03 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/65/comments HTTP/1.1" 200 2
+2024-03-18 20:46:03 - DEBUG - Fetching details for PR #63
+2024-03-18 20:46:03 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:04 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/63/files HTTP/1.1" 200 None
+2024-03-18 20:46:04 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:06 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/63/comments HTTP/1.1" 200 2
+2024-03-18 20:46:06 - DEBUG - Fetching details for PR #62
+2024-03-18 20:46:06 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:07 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/62/files HTTP/1.1" 200 None
+2024-03-18 20:46:07 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:08 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/62/comments HTTP/1.1" 200 2
+2024-03-18 20:46:08 - DEBUG - Fetching details for PR #53
+2024-03-18 20:46:08 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:08 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/53/files HTTP/1.1" 200 None
+2024-03-18 20:46:08 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:09 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/53/comments HTTP/1.1" 200 2
+2024-03-18 20:46:09 - DEBUG - Fetching details for PR #46
+2024-03-18 20:46:09 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:10 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/46/files HTTP/1.1" 200 None
+2024-03-18 20:46:10 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:10 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/46/comments HTTP/1.1" 200 2
+2024-03-18 20:46:10 - DEBUG - Fetching details for PR #44
+2024-03-18 20:46:10 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:11 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/44/files HTTP/1.1" 200 None
+2024-03-18 20:46:11 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:12 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/44/comments HTTP/1.1" 200 2
+2024-03-18 20:46:12 - DEBUG - Fetching details for PR #40
+2024-03-18 20:46:12 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:13 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/40/files HTTP/1.1" 200 None
+2024-03-18 20:46:13 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:13 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/40/comments HTTP/1.1" 200 2
+2024-03-18 20:46:13 - DEBUG - Fetching details for PR #38
+2024-03-18 20:46:13 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:14 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/38/files HTTP/1.1" 200 None
+2024-03-18 20:46:14 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:15 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/38/comments HTTP/1.1" 200 2
+2024-03-18 20:46:15 - DEBUG - Fetching details for PR #32
+2024-03-18 20:46:15 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:15 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/32/files HTTP/1.1" 200 None
+2024-03-18 20:46:15 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:16 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/32/comments HTTP/1.1" 200 2
+2024-03-18 20:46:16 - DEBUG - Fetching details for PR #29
+2024-03-18 20:46:16 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:16 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/29/files HTTP/1.1" 200 None
+2024-03-18 20:46:16 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:17 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/29/comments HTTP/1.1" 200 2
+2024-03-18 20:46:17 - DEBUG - Fetching details for PR #27
+2024-03-18 20:46:17 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:17 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/27/files HTTP/1.1" 200 None
+2024-03-18 20:46:17 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:18 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/27/comments HTTP/1.1" 200 2
+2024-03-18 20:46:18 - DEBUG - Fetching details for PR #26
+2024-03-18 20:46:18 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:18 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/26/files HTTP/1.1" 200 None
+2024-03-18 20:46:18 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:18 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/26/comments HTTP/1.1" 200 2
+2024-03-18 20:46:18 - DEBUG - Fetching details for PR #23
+2024-03-18 20:46:18 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:19 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/23/files HTTP/1.1" 200 None
+2024-03-18 20:46:19 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:19 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/23/comments HTTP/1.1" 200 2
+2024-03-18 20:46:19 - DEBUG - Fetching details for PR #22
+2024-03-18 20:46:19 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:20 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/22/files HTTP/1.1" 200 None
+2024-03-18 20:46:20 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:20 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/22/comments HTTP/1.1" 200 2
+2024-03-18 20:46:20 - DEBUG - Fetching details for PR #21
+2024-03-18 20:46:20 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:21 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/21/files HTTP/1.1" 200 None
+2024-03-18 20:46:21 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:21 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/21/comments HTTP/1.1" 200 2
+2024-03-18 20:46:21 - DEBUG - Fetching details for PR #19
+2024-03-18 20:46:21 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:21 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/19/files HTTP/1.1" 200 None
+2024-03-18 20:46:21 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:22 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/19/comments HTTP/1.1" 200 2
+2024-03-18 20:46:22 - DEBUG - Fetching details for PR #18
+2024-03-18 20:46:22 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:22 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/18/files HTTP/1.1" 200 None
+2024-03-18 20:46:22 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:23 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/18/comments HTTP/1.1" 200 2
+2024-03-18 20:46:23 - DEBUG - Fetching details for PR #15
+2024-03-18 20:46:23 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:23 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/15/files HTTP/1.1" 200 None
+2024-03-18 20:46:23 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:23 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/15/comments HTTP/1.1" 200 2
+2024-03-18 20:46:23 - DEBUG - Fetching details for PR #13
+2024-03-18 20:46:23 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:24 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/13/files HTTP/1.1" 200 None
+2024-03-18 20:46:24 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:24 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/13/comments HTTP/1.1" 200 2
+2024-03-18 20:46:24 - DEBUG - Fetching details for PR #12
+2024-03-18 20:46:24 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:25 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/12/files HTTP/1.1" 200 None
+2024-03-18 20:46:25 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:25 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/12/comments HTTP/1.1" 200 2
+2024-03-18 20:46:25 - DEBUG - Fetching details for PR #11
+2024-03-18 20:46:25 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:26 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/11/files HTTP/1.1" 200 None
+2024-03-18 20:46:26 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:26 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/11/comments HTTP/1.1" 200 2
+2024-03-18 20:46:26 - DEBUG - Fetching details for PR #10
+2024-03-18 20:46:26 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:26 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/10/files HTTP/1.1" 200 None
+2024-03-18 20:46:26 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:27 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/10/comments HTTP/1.1" 200 2
+2024-03-18 20:46:27 - DEBUG - Fetching details for PR #9
+2024-03-18 20:46:27 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:27 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/9/files HTTP/1.1" 200 None
+2024-03-18 20:46:27 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:28 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/9/comments HTTP/1.1" 200 2
+2024-03-18 20:46:28 - DEBUG - Fetching details for PR #8
+2024-03-18 20:46:28 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:28 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/8/files HTTP/1.1" 200 None
+2024-03-18 20:46:28 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:28 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/8/comments HTTP/1.1" 200 2
+2024-03-18 20:46:29 - DEBUG - Fetching details for PR #7
+2024-03-18 20:46:29 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:29 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/7/files HTTP/1.1" 200 2
+2024-03-18 20:46:29 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:29 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/7/comments HTTP/1.1" 200 2
+2024-03-18 20:46:29 - DEBUG - Fetching details for PR #6
+2024-03-18 20:46:29 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:30 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/6/files HTTP/1.1" 200 None
+2024-03-18 20:46:30 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:30 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/6/comments HTTP/1.1" 200 2
+2024-03-18 20:46:30 - DEBUG - Fetching details for PR #5
+2024-03-18 20:46:30 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:30 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/5/files HTTP/1.1" 200 None
+2024-03-18 20:46:31 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:31 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/5/comments HTTP/1.1" 200 2
+2024-03-18 20:46:31 - DEBUG - Fetching details for PR #3
+2024-03-18 20:46:31 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:31 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/3/files HTTP/1.1" 200 None
+2024-03-18 20:46:31 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-03-18 20:46:32 - DEBUG - https://api.github.com:443 "GET /repos/lencx/ChatGPT/pulls/3/comments HTTP/1.1" 200 2
+2024-03-18 20:46:32 - INFO - Application shutdown
