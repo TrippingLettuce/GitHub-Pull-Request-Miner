@@ -8,6 +8,8 @@ bash
 
 pip install requests
 
+pip install pandas matplotlib
+
 Configuration
 
 Before running the application, you need to configure your GitHub Personal Access Token and the target repository:
@@ -24,3 +26,4 @@ To run the application, ensure you are in the project's root directory, then exe
 bash
 
 python main.py
+
